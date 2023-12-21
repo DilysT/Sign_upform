@@ -86,6 +86,7 @@
             this.flowLayoutPanel1 = new System.Windows.Forms.FlowLayoutPanel();
             this.toppick1 = new Sign_upform.Music_toppick.Toppick();
             this.toppick2 = new Sign_upform.Music_toppick.Toppick();
+            this.toppick3 = new Sign_upform.Music_toppick.Toppick();
             this.play_bar.SuspendLayout();
             this.panel1.SuspendLayout();
             this.panel3.SuspendLayout();
@@ -814,6 +815,7 @@
             // 
             this.flowLayoutPanel1.Controls.Add(this.toppick1);
             this.flowLayoutPanel1.Controls.Add(this.toppick2);
+            this.flowLayoutPanel1.Controls.Add(this.toppick3);
             this.flowLayoutPanel1.Location = new System.Drawing.Point(3, 62);
             this.flowLayoutPanel1.Name = "flowLayoutPanel1";
             this.flowLayoutPanel1.Size = new System.Drawing.Size(713, 321);
@@ -834,6 +836,14 @@
             this.toppick2.Name = "toppick2";
             this.toppick2.Size = new System.Drawing.Size(666, 151);
             this.toppick2.TabIndex = 1;
+            // 
+            // toppick3
+            // 
+            this.toppick3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(23)))), ((int)(((byte)(17)))), ((int)(((byte)(29)))));
+            this.toppick3.Location = new System.Drawing.Point(3, 310);
+            this.toppick3.Name = "toppick3";
+            this.toppick3.Size = new System.Drawing.Size(666, 151);
+            this.toppick3.TabIndex = 2;
             // 
             // Toppicks
             // 
@@ -949,5 +959,6 @@
         private System.Windows.Forms.FlowLayoutPanel flowLayoutPanel1;
         private Music_toppick.Toppick toppick1;
         private Music_toppick.Toppick toppick2;
+        private Music_toppick.Toppick toppick3;
     }
 }
