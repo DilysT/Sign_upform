@@ -285,6 +285,24 @@
     <Compile Include="password_updated.Designer.cs">
       <DependentUpon>password_updated.cs</DependentUpon>
     </Compile>
+    <Compile Include="search_artist.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="search_artist.Designer.cs">
+      <DependentUpon>search_artist.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Search_error.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Search_error.Designer.cs">
+      <DependentUpon>Search_error.cs</DependentUpon>
+    </Compile>
+    <Compile Include="search_songs.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="search_songs.Designer.cs">
+      <DependentUpon>search_songs.cs</DependentUpon>
+    </Compile>
     <Compile Include="Signup.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -340,6 +358,15 @@
     </EmbeddedResource>
     <EmbeddedResource Include="password_updated.resx">
       <DependentUpon>password_updated.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="search_artist.resx">
+      <DependentUpon>search_artist.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Search_error.resx">
+      <DependentUpon>Search_error.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="search_songs.resx">
+      <DependentUpon>search_songs.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Signup.resx">
       <DependentUpon>Signup.cs</DependentUpon>

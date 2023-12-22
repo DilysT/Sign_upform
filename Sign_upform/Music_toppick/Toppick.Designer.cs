@@ -30,7 +30,10 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Toppick));
             this.guna2Panel2 = new Guna.UI2.WinForms.Guna2Panel();
+            this.pictureBox5 = new System.Windows.Forms.PictureBox();
+            this.linkicon = new System.Windows.Forms.PictureBox();
             this.linktext = new Guna.UI2.WinForms.Guna2Button();
+            this.zaloicon = new System.Windows.Forms.PictureBox();
             this.zalotext = new Guna.UI2.WinForms.Guna2Button();
             this.face_text = new Guna.UI2.WinForms.Guna2Button();
             this.label7 = new System.Windows.Forms.Label();
@@ -40,21 +43,18 @@
             this.guna2HtmlLabel1 = new Guna.UI2.WinForms.Guna2HtmlLabel();
             this.label12 = new System.Windows.Forms.Label();
             this.avatar_button = new Guna.UI2.WinForms.Guna2Button();
-            this.pictureBox5 = new System.Windows.Forms.PictureBox();
-            this.linkicon = new System.Windows.Forms.PictureBox();
-            this.zaloicon = new System.Windows.Forms.PictureBox();
             this.pictureBox7 = new System.Windows.Forms.PictureBox();
-            this.pictureBox9 = new System.Windows.Forms.PictureBox();
             this.pictureBox8 = new System.Windows.Forms.PictureBox();
             this.pictureBox6 = new System.Windows.Forms.PictureBox();
+            this.pictureBox9 = new System.Windows.Forms.PictureBox();
             this.guna2Panel2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.linkicon)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.zaloicon)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox9)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox8)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox9)).BeginInit();
             this.SuspendLayout();
             // 
             // guna2Panel2
@@ -75,6 +75,32 @@
             this.guna2Panel2.Size = new System.Drawing.Size(140, 74);
             this.guna2Panel2.TabIndex = 165;
             // 
+            // pictureBox5
+            // 
+            this.pictureBox5.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox5.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.pictureBox5.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox5.Image")));
+            this.pictureBox5.Location = new System.Drawing.Point(10, 7);
+            this.pictureBox5.Name = "pictureBox5";
+            this.pictureBox5.Size = new System.Drawing.Size(16, 15);
+            this.pictureBox5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
+            this.pictureBox5.TabIndex = 157;
+            this.pictureBox5.TabStop = false;
+            this.pictureBox5.Tag = "blocks";
+            // 
+            // linkicon
+            // 
+            this.linkicon.BackColor = System.Drawing.Color.Transparent;
+            this.linkicon.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.linkicon.Image = ((System.Drawing.Image)(resources.GetObject("linkicon.Image")));
+            this.linkicon.Location = new System.Drawing.Point(10, 52);
+            this.linkicon.Name = "linkicon";
+            this.linkicon.Size = new System.Drawing.Size(15, 16);
+            this.linkicon.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.linkicon.TabIndex = 149;
+            this.linkicon.TabStop = false;
+            this.linkicon.Tag = "blocks";
+            // 
             // linktext
             // 
             this.linktext.BorderRadius = 4;
@@ -92,6 +118,19 @@
             this.linktext.TabIndex = 148;
             this.linktext.Text = "     Copy link";
             this.linktext.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
+            // 
+            // zaloicon
+            // 
+            this.zaloicon.BackColor = System.Drawing.Color.Transparent;
+            this.zaloicon.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.zaloicon.Image = ((System.Drawing.Image)(resources.GetObject("zaloicon.Image")));
+            this.zaloicon.Location = new System.Drawing.Point(10, 28);
+            this.zaloicon.Name = "zaloicon";
+            this.zaloicon.Size = new System.Drawing.Size(17, 17);
+            this.zaloicon.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
+            this.zaloicon.TabIndex = 146;
+            this.zaloicon.TabStop = false;
+            this.zaloicon.Tag = "blocks";
             // 
             // zalotext
             // 
@@ -229,45 +268,6 @@
             this.avatar_button.TabIndex = 166;
             this.avatar_button.Tag = "blocks";
             // 
-            // pictureBox5
-            // 
-            this.pictureBox5.BackColor = System.Drawing.Color.Transparent;
-            this.pictureBox5.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.pictureBox5.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox5.Image")));
-            this.pictureBox5.Location = new System.Drawing.Point(10, 7);
-            this.pictureBox5.Name = "pictureBox5";
-            this.pictureBox5.Size = new System.Drawing.Size(16, 15);
-            this.pictureBox5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
-            this.pictureBox5.TabIndex = 157;
-            this.pictureBox5.TabStop = false;
-            this.pictureBox5.Tag = "blocks";
-            // 
-            // linkicon
-            // 
-            this.linkicon.BackColor = System.Drawing.Color.Transparent;
-            this.linkicon.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.linkicon.Image = ((System.Drawing.Image)(resources.GetObject("linkicon.Image")));
-            this.linkicon.Location = new System.Drawing.Point(10, 52);
-            this.linkicon.Name = "linkicon";
-            this.linkicon.Size = new System.Drawing.Size(15, 16);
-            this.linkicon.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.linkicon.TabIndex = 149;
-            this.linkicon.TabStop = false;
-            this.linkicon.Tag = "blocks";
-            // 
-            // zaloicon
-            // 
-            this.zaloicon.BackColor = System.Drawing.Color.Transparent;
-            this.zaloicon.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.zaloicon.Image = ((System.Drawing.Image)(resources.GetObject("zaloicon.Image")));
-            this.zaloicon.Location = new System.Drawing.Point(10, 28);
-            this.zaloicon.Name = "zaloicon";
-            this.zaloicon.Size = new System.Drawing.Size(17, 17);
-            this.zaloicon.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
-            this.zaloicon.TabIndex = 146;
-            this.zaloicon.TabStop = false;
-            this.zaloicon.Tag = "blocks";
-            // 
             // pictureBox7
             // 
             this.pictureBox7.Cursor = System.Windows.Forms.Cursors.Hand;
@@ -279,18 +279,6 @@
             this.pictureBox7.TabIndex = 163;
             this.pictureBox7.TabStop = false;
             this.pictureBox7.Tag = "blocks";
-            // 
-            // pictureBox9
-            // 
-            this.pictureBox9.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.pictureBox9.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox9.Image")));
-            this.pictureBox9.Location = new System.Drawing.Point(602, 95);
-            this.pictureBox9.Name = "pictureBox9";
-            this.pictureBox9.Size = new System.Drawing.Size(27, 18);
-            this.pictureBox9.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
-            this.pictureBox9.TabIndex = 162;
-            this.pictureBox9.TabStop = false;
-            this.pictureBox9.Tag = "";
             // 
             // pictureBox8
             // 
@@ -316,6 +304,18 @@
             this.pictureBox6.TabStop = false;
             this.pictureBox6.Tag = "";
             // 
+            // pictureBox9
+            // 
+            this.pictureBox9.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.pictureBox9.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox9.Image")));
+            this.pictureBox9.Location = new System.Drawing.Point(602, 95);
+            this.pictureBox9.Name = "pictureBox9";
+            this.pictureBox9.Size = new System.Drawing.Size(27, 18);
+            this.pictureBox9.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
+            this.pictureBox9.TabIndex = 162;
+            this.pictureBox9.TabStop = false;
+            this.pictureBox9.Tag = "";
+            // 
             // Toppick
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -334,16 +334,16 @@
             this.Controls.Add(this.guna2HtmlLabel1);
             this.Controls.Add(this.label12);
             this.Name = "Toppick";
-            this.Size = new System.Drawing.Size(666, 161);
+            this.Size = new System.Drawing.Size(652, 161);
             this.guna2Panel2.ResumeLayout(false);
             this.guna2Panel2.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.linkicon)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.zaloicon)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox9)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox8)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox9)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -361,7 +361,6 @@
         private Guna.UI2.WinForms.Guna2Button face_text;
         private System.Windows.Forms.Label label7;
         private System.Windows.Forms.PictureBox pictureBox7;
-        private System.Windows.Forms.PictureBox pictureBox9;
         private System.Windows.Forms.PictureBox pictureBox8;
         private System.Windows.Forms.PictureBox pictureBox6;
         private System.Windows.Forms.Label label6;
@@ -369,5 +368,6 @@
         private System.Windows.Forms.Label label4;
         private Guna.UI2.WinForms.Guna2HtmlLabel guna2HtmlLabel1;
         private System.Windows.Forms.Label label12;
+        private System.Windows.Forms.PictureBox pictureBox9;
     }
 }
