@@ -383,6 +383,11 @@
   <ItemGroup>
     <None Include="Resources\login1.jpg" />
   </ItemGroup>
+  <ItemGroup>
+    <Content Include="Resources\Property 1=Frame 517.png" />
+    <Content Include="Resources\Share.png" />
+    <Content Include="Resources\shuffle 2.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Import Project="..\packages\Fody.4.0.2\build\Fody.targets" Condition="Exists('..\packages\Fody.4.0.2\build\Fody.targets')" />
   <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
