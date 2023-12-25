@@ -231,6 +231,12 @@
     <Reference Include="WindowsBase" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="artist_homepages\Artist_homepage_minh.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="artist_homepages\Artist_homepage_minh.Designer.cs">
+      <DependentUpon>Artist_homepage_minh.cs</DependentUpon>
+    </Compile>
     <Compile Include="artist_homepages\Artist_homepage_Thi.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -242,6 +248,24 @@
     </Compile>
     <Compile Include="artist_homepages\Artist_homepage_Thi_fan.Designer.cs">
       <DependentUpon>Artist_homepage_Thi_fan.cs</DependentUpon>
+    </Compile>
+    <Compile Include="artist_homepages\artist_hp_kathy.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="artist_homepages\artist_hp_kathy.Designer.cs">
+      <DependentUpon>artist_hp_kathy.cs</DependentUpon>
+    </Compile>
+    <Compile Include="artist_homepages\artist_hp_kathy_fan.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="artist_homepages\artist_hp_kathy_fan.Designer.cs">
+      <DependentUpon>artist_hp_kathy_fan.cs</DependentUpon>
+    </Compile>
+    <Compile Include="artist_homepages\Artist_hp_minh_fan.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="artist_homepages\Artist_hp_minh_fan.Designer.cs">
+      <DependentUpon>Artist_hp_minh_fan.cs</DependentUpon>
     </Compile>
     <Compile Include="changed_your_password.cs">
       <SubType>Form</SubType>
@@ -371,11 +395,23 @@
     <Compile Include="Toppicks.Designer.cs">
       <DependentUpon>Toppicks.cs</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="artist_homepages\Artist_homepage_minh.resx">
+      <DependentUpon>Artist_homepage_minh.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="artist_homepages\Artist_homepage_Thi.resx">
       <DependentUpon>Artist_homepage_Thi.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="artist_homepages\Artist_homepage_Thi_fan.resx">
       <DependentUpon>Artist_homepage_Thi_fan.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="artist_homepages\artist_hp_kathy.resx">
+      <DependentUpon>artist_hp_kathy.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="artist_homepages\artist_hp_kathy_fan.resx">
+      <DependentUpon>artist_hp_kathy_fan.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="artist_homepages\Artist_hp_minh_fan.resx">
+      <DependentUpon>Artist_hp_minh_fan.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="changed_your_password.resx">
       <DependentUpon>changed_your_password.cs</DependentUpon>

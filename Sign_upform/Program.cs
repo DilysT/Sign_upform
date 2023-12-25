@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Sign_upform.artist_homepages;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
@@ -16,7 +17,7 @@ namespace Sign_upform
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Toppicks_fan());
+            Application.Run(new Artist_hp_minh_fan());
         }
     }
 }
