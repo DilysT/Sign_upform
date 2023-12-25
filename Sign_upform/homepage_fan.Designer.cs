@@ -28,185 +28,113 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(homepage_fan));
-            this.play_bar = new System.Windows.Forms.Panel();
+            this.songs14 = new Sign_upform.Music_toppick.songs();
             this.guna2TrackBar1 = new Guna.UI2.WinForms.Guna2TrackBar();
             this.guna2ProgressBar1 = new Guna.UI2.WinForms.Guna2ProgressBar();
             this.label43 = new System.Windows.Forms.Label();
-            this.label2 = new System.Windows.Forms.Label();
+            this.label44 = new System.Windows.Forms.Label();
             this.heart_active = new System.Windows.Forms.PictureBox();
             this.transfer_images = new System.Windows.Forms.PictureBox();
             this.pictureBox40 = new System.Windows.Forms.PictureBox();
-            this.pictureBox39 = new System.Windows.Forms.PictureBox();
+            this.Play_button = new System.Windows.Forms.PictureBox();
             this.pictureBox38 = new System.Windows.Forms.PictureBox();
             this.pictureBox37 = new System.Windows.Forms.PictureBox();
             this.pictureBox36 = new System.Windows.Forms.PictureBox();
             this.pictureBox35 = new System.Windows.Forms.PictureBox();
             this.pictureBox34 = new System.Windows.Forms.PictureBox();
             this.pictureBox33 = new System.Windows.Forms.PictureBox();
-            this.label1 = new System.Windows.Forms.Label();
-            this.panel1 = new System.Windows.Forms.Panel();
+            this.songs1 = new Sign_upform.Music_toppick.songs();
+            this.songs2 = new Sign_upform.Music_toppick.songs();
+            this.songs4 = new Sign_upform.Music_toppick.songs();
+            this.songs5 = new Sign_upform.Music_toppick.songs();
+            this.songs7 = new Sign_upform.Music_toppick.songs();
+            this.songs8 = new Sign_upform.Music_toppick.songs();
+            this.songs9 = new Sign_upform.Music_toppick.songs();
+            this.songs10 = new Sign_upform.Music_toppick.songs();
+            this.flowLayoutPanel4 = new System.Windows.Forms.FlowLayoutPanel();
+            this.songs11 = new Sign_upform.Music_toppick.songs();
+            this.songs12 = new Sign_upform.Music_toppick.songs();
+            this.songs13 = new Sign_upform.Music_toppick.songs();
+            this.songs15 = new Sign_upform.Music_toppick.songs();
+            this.topartist2 = new Sign_upform.Music_toppick.Topartist();
+            this.play_bar = new System.Windows.Forms.Panel();
+            this.pictureBox10 = new System.Windows.Forms.PictureBox();
             this.Home = new System.Windows.Forms.Label();
-            this.pictureBox3 = new System.Windows.Forms.PictureBox();
-            this.pictureBox2 = new System.Windows.Forms.PictureBox();
-            this.InspiroMix = new System.Windows.Forms.PictureBox();
-            this.panel3 = new System.Windows.Forms.Panel();
+            this.backgroundWorker1 = new System.ComponentModel.BackgroundWorker();
+            this.label4 = new System.Windows.Forms.Label();
             this.pictureBox30 = new System.Windows.Forms.PictureBox();
             this.pictureBox29 = new System.Windows.Forms.PictureBox();
             this.pictureBox28 = new System.Windows.Forms.PictureBox();
             this.pictureBox27 = new System.Windows.Forms.PictureBox();
             this.textBox1 = new System.Windows.Forms.TextBox();
             this.pictureBox4 = new System.Windows.Forms.PictureBox();
-            this.backgroundWorker1 = new System.ComponentModel.BackgroundWorker();
-            this.bunifuElipse1 = new Bunifu.Framework.UI.BunifuElipse(this.components);
+            this.see_more = new System.Windows.Forms.LinkLabel();
+            this.label3 = new System.Windows.Forms.Label();
+            this.InspiroMix = new System.Windows.Forms.PictureBox();
             this.disable_bar = new System.Windows.Forms.PictureBox();
-            this.panel4 = new System.Windows.Forms.Panel();
-            this.label44 = new System.Windows.Forms.Label();
-            this.label45 = new System.Windows.Forms.Label();
-            this.label46 = new System.Windows.Forms.Label();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.label47 = new System.Windows.Forms.Label();
-            this.label48 = new System.Windows.Forms.Label();
-            this.pictureBox31 = new System.Windows.Forms.PictureBox();
-            this.label49 = new System.Windows.Forms.Label();
-            this.label50 = new System.Windows.Forms.Label();
-            this.pictureBox32 = new System.Windows.Forms.PictureBox();
-            this.label51 = new System.Windows.Forms.Label();
-            this.label52 = new System.Windows.Forms.Label();
-            this.pictureBox41 = new System.Windows.Forms.PictureBox();
-            this.label53 = new System.Windows.Forms.Label();
-            this.label54 = new System.Windows.Forms.Label();
-            this.pictureBox42 = new System.Windows.Forms.PictureBox();
-            this.linkLabel3 = new System.Windows.Forms.LinkLabel();
-            this.label55 = new System.Windows.Forms.Label();
-            this.label56 = new System.Windows.Forms.Label();
-            this.label57 = new System.Windows.Forms.Label();
-            this.pictureBox43 = new System.Windows.Forms.PictureBox();
-            this.label58 = new System.Windows.Forms.Label();
-            this.label59 = new System.Windows.Forms.Label();
-            this.pictureBox44 = new System.Windows.Forms.PictureBox();
-            this.label60 = new System.Windows.Forms.Label();
-            this.label61 = new System.Windows.Forms.Label();
-            this.pictureBox45 = new System.Windows.Forms.PictureBox();
-            this.label62 = new System.Windows.Forms.Label();
-            this.label63 = new System.Windows.Forms.Label();
-            this.pictureBox46 = new System.Windows.Forms.PictureBox();
-            this.label64 = new System.Windows.Forms.Label();
-            this.label65 = new System.Windows.Forms.Label();
-            this.pictureBox47 = new System.Windows.Forms.PictureBox();
-            this.linkLabel4 = new System.Windows.Forms.LinkLabel();
-            this.label66 = new System.Windows.Forms.Label();
-            this.label67 = new System.Windows.Forms.Label();
-            this.label68 = new System.Windows.Forms.Label();
-            this.pictureBox48 = new System.Windows.Forms.PictureBox();
-            this.label69 = new System.Windows.Forms.Label();
-            this.label70 = new System.Windows.Forms.Label();
-            this.pictureBox49 = new System.Windows.Forms.PictureBox();
-            this.label71 = new System.Windows.Forms.Label();
-            this.label72 = new System.Windows.Forms.Label();
-            this.pictureBox50 = new System.Windows.Forms.PictureBox();
-            this.label73 = new System.Windows.Forms.Label();
-            this.label74 = new System.Windows.Forms.Label();
-            this.pictureBox51 = new System.Windows.Forms.PictureBox();
-            this.label75 = new System.Windows.Forms.Label();
-            this.label76 = new System.Windows.Forms.Label();
-            this.label77 = new System.Windows.Forms.Label();
-            this.label78 = new System.Windows.Forms.Label();
-            this.label79 = new System.Windows.Forms.Label();
-            this.label80 = new System.Windows.Forms.Label();
-            this.label81 = new System.Windows.Forms.Label();
-            this.pictureBox52 = new System.Windows.Forms.PictureBox();
-            this.pictureBox53 = new System.Windows.Forms.PictureBox();
-            this.pictureBox54 = new System.Windows.Forms.PictureBox();
-            this.pictureBox55 = new System.Windows.Forms.PictureBox();
-            this.pictureBox56 = new System.Windows.Forms.PictureBox();
-            this.pictureBox57 = new System.Windows.Forms.PictureBox();
-            this.pictureBox58 = new System.Windows.Forms.PictureBox();
-            this.label82 = new System.Windows.Forms.Label();
-            this.pictureBox59 = new System.Windows.Forms.PictureBox();
-            this.linkLabel5 = new System.Windows.Forms.LinkLabel();
-            this.label83 = new System.Windows.Forms.Label();
-            this.play_bar.SuspendLayout();
+            this.label5 = new System.Windows.Forms.Label();
+            this.flowLayoutPanel3 = new System.Windows.Forms.FlowLayoutPanel();
+            this.songs6 = new Sign_upform.Music_toppick.songs();
+            this.flowLayoutPanel2 = new System.Windows.Forms.FlowLayoutPanel();
+            this.songs3 = new Sign_upform.Music_toppick.songs();
+            this.label42 = new System.Windows.Forms.Label();
+            this.flowLayoutPanel1 = new System.Windows.Forms.FlowLayoutPanel();
+            this.topartist3 = new Sign_upform.Music_toppick.Topartist();
+            this.topartist1 = new Sign_upform.Music_toppick.Topartist();
+            this.label1 = new System.Windows.Forms.Label();
+            this.panel3 = new System.Windows.Forms.Panel();
+            this.panel1 = new System.Windows.Forms.Panel();
+            this.pictureBox3 = new System.Windows.Forms.PictureBox();
+            this.pictureBox2 = new System.Windows.Forms.PictureBox();
+            this.panel2 = new System.Windows.Forms.Panel();
             ((System.ComponentModel.ISupportInitialize)(this.heart_active)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.transfer_images)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox40)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox39)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.Play_button)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox38)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox37)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox36)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox35)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox34)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox33)).BeginInit();
-            this.panel1.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.InspiroMix)).BeginInit();
-            this.panel3.SuspendLayout();
+            this.flowLayoutPanel4.SuspendLayout();
+            this.play_bar.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox10)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox30)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox29)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox28)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox27)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.InspiroMix)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.disable_bar)).BeginInit();
-            this.panel4.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox31)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox32)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox41)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox42)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox43)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox44)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox45)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox46)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox47)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox48)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox49)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox50)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox51)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox52)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox53)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox54)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox55)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox56)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox57)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox58)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox59)).BeginInit();
+            this.flowLayoutPanel3.SuspendLayout();
+            this.flowLayoutPanel2.SuspendLayout();
+            this.flowLayoutPanel1.SuspendLayout();
+            this.panel3.SuspendLayout();
+            this.panel1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
+            this.panel2.SuspendLayout();
             this.SuspendLayout();
             // 
-            // play_bar
+            // songs14
             // 
-            this.play_bar.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(23)))), ((int)(((byte)(17)))), ((int)(((byte)(29)))));
-            this.play_bar.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.play_bar.Controls.Add(this.guna2TrackBar1);
-            this.play_bar.Controls.Add(this.guna2ProgressBar1);
-            this.play_bar.Controls.Add(this.label43);
-            this.play_bar.Controls.Add(this.label2);
-            this.play_bar.Controls.Add(this.heart_active);
-            this.play_bar.Controls.Add(this.transfer_images);
-            this.play_bar.Controls.Add(this.pictureBox40);
-            this.play_bar.Controls.Add(this.pictureBox39);
-            this.play_bar.Controls.Add(this.pictureBox38);
-            this.play_bar.Controls.Add(this.pictureBox37);
-            this.play_bar.Controls.Add(this.pictureBox36);
-            this.play_bar.Controls.Add(this.pictureBox35);
-            this.play_bar.Controls.Add(this.pictureBox34);
-            this.play_bar.Controls.Add(this.pictureBox33);
-            this.play_bar.Location = new System.Drawing.Point(-7, 451);
-            this.play_bar.Name = "play_bar";
-            this.play_bar.Size = new System.Drawing.Size(884, 64);
-            this.play_bar.TabIndex = 137;
-            this.play_bar.Paint += new System.Windows.Forms.PaintEventHandler(this.play_bar_Paint);
+            this.songs14.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(23)))), ((int)(((byte)(17)))), ((int)(((byte)(29)))));
+            this.songs14.Location = new System.Drawing.Point(417, 3);
+            this.songs14.Name = "songs14";
+            this.songs14.Size = new System.Drawing.Size(132, 178);
+            this.songs14.TabIndex = 11;
             // 
             // guna2TrackBar1
             // 
             this.guna2TrackBar1.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(129)))), ((int)(((byte)(129)))), ((int)(((byte)(129)))));
             this.guna2TrackBar1.HoverState.Parent = this.guna2TrackBar1;
-            this.guna2TrackBar1.Location = new System.Drawing.Point(797, 28);
+            this.guna2TrackBar1.Location = new System.Drawing.Point(796, 29);
             this.guna2TrackBar1.Name = "guna2TrackBar1";
             this.guna2TrackBar1.Size = new System.Drawing.Size(65, 4);
             this.guna2TrackBar1.Style = Guna.UI2.WinForms.Enums.TrackBarStyle.Metro;
-            this.guna2TrackBar1.TabIndex = 146;
+            this.guna2TrackBar1.TabIndex = 150;
             this.guna2TrackBar1.ThumbColor = System.Drawing.Color.White;
             // 
             // guna2ProgressBar1
@@ -214,13 +142,13 @@
             this.guna2ProgressBar1.BorderRadius = 2;
             this.guna2ProgressBar1.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(129)))), ((int)(((byte)(129)))), ((int)(((byte)(129)))));
             this.guna2ProgressBar1.GradientMode = System.Drawing.Drawing2D.LinearGradientMode.Horizontal;
-            this.guna2ProgressBar1.Location = new System.Drawing.Point(492, 28);
+            this.guna2ProgressBar1.Location = new System.Drawing.Point(487, 29);
             this.guna2ProgressBar1.Name = "guna2ProgressBar1";
             this.guna2ProgressBar1.ProgressColor = System.Drawing.Color.White;
             this.guna2ProgressBar1.ProgressColor2 = System.Drawing.Color.White;
             this.guna2ProgressBar1.ShadowDecoration.Parent = this.guna2ProgressBar1;
             this.guna2ProgressBar1.Size = new System.Drawing.Size(232, 5);
-            this.guna2ProgressBar1.TabIndex = 134;
+            this.guna2ProgressBar1.TabIndex = 135;
             this.guna2ProgressBar1.TextRenderingHint = System.Drawing.Text.TextRenderingHint.SystemDefault;
             this.guna2ProgressBar1.Value = 50;
             // 
@@ -229,43 +157,41 @@
             this.label43.AutoSize = true;
             this.label43.Font = new System.Drawing.Font("Lato Semibold", 9.749999F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label43.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(197)))), ((int)(((byte)(197)))), ((int)(((byte)(197)))));
-            this.label43.Location = new System.Drawing.Point(728, 22);
+            this.label43.Location = new System.Drawing.Point(723, 24);
             this.label43.Name = "label43";
             this.label43.Size = new System.Drawing.Size(42, 16);
-            this.label43.TabIndex = 145;
+            this.label43.TabIndex = 148;
             this.label43.Text = "00:00";
             // 
-            // label2
+            // label44
             // 
-            this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("Lato Semibold", 9.749999F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.label2.Location = new System.Drawing.Point(447, 22);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(42, 16);
-            this.label2.TabIndex = 144;
-            this.label2.Text = "00:00";
+            this.label44.AutoSize = true;
+            this.label44.Font = new System.Drawing.Font("Lato Semibold", 9.749999F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label44.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.label44.Location = new System.Drawing.Point(442, 24);
+            this.label44.Name = "label44";
+            this.label44.Size = new System.Drawing.Size(42, 16);
+            this.label44.TabIndex = 147;
+            this.label44.Text = "00:00";
             // 
             // heart_active
             // 
             this.heart_active.Image = ((System.Drawing.Image)(resources.GetObject("heart_active.Image")));
-            this.heart_active.Location = new System.Drawing.Point(159, 24);
+            this.heart_active.Location = new System.Drawing.Point(157, 24);
             this.heart_active.Name = "heart_active";
             this.heart_active.Size = new System.Drawing.Size(15, 15);
             this.heart_active.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
-            this.heart_active.TabIndex = 143;
+            this.heart_active.TabIndex = 144;
             this.heart_active.TabStop = false;
-            this.heart_active.Click += new System.EventHandler(this.heart_active_Click_1);
             // 
             // transfer_images
             // 
             this.transfer_images.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(128)))));
-            this.transfer_images.Location = new System.Drawing.Point(6, 1);
+            this.transfer_images.Location = new System.Drawing.Point(5, -2);
             this.transfer_images.Name = "transfer_images";
             this.transfer_images.Size = new System.Drawing.Size(63, 63);
-            this.transfer_images.TabIndex = 132;
+            this.transfer_images.TabIndex = 133;
             this.transfer_images.TabStop = false;
-            this.transfer_images.Click += new System.EventHandler(this.transfer_images_Click);
             // 
             // pictureBox40
             // 
@@ -277,16 +203,16 @@
             this.pictureBox40.TabIndex = 137;
             this.pictureBox40.TabStop = false;
             // 
-            // pictureBox39
+            // Play_button
             // 
-            this.pictureBox39.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox39.Image")));
-            this.pictureBox39.Location = new System.Drawing.Point(333, 17);
-            this.pictureBox39.Name = "pictureBox39";
-            this.pictureBox39.Size = new System.Drawing.Size(28, 28);
-            this.pictureBox39.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
-            this.pictureBox39.TabIndex = 136;
-            this.pictureBox39.TabStop = false;
-            this.pictureBox39.Click += new System.EventHandler(this.pictureBox39_Click);
+            this.Play_button.Image = ((System.Drawing.Image)(resources.GetObject("Play_button.Image")));
+            this.Play_button.Location = new System.Drawing.Point(333, 17);
+            this.Play_button.Name = "Play_button";
+            this.Play_button.Size = new System.Drawing.Size(28, 28);
+            this.Play_button.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
+            this.Play_button.TabIndex = 136;
+            this.Play_button.TabStop = false;
+            this.Play_button.Click += new System.EventHandler(this.Play_button_Click);
             // 
             // pictureBox38
             // 
@@ -348,30 +274,155 @@
             this.pictureBox33.TabIndex = 130;
             this.pictureBox33.TabStop = false;
             // 
-            // label1
+            // songs1
             // 
-            this.label1.AutoSize = true;
-            this.label1.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.label1.Font = new System.Drawing.Font("Lato Semibold", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(179)))), ((int)(((byte)(179)))), ((int)(((byte)(179)))));
-            this.label1.Location = new System.Drawing.Point(35, 117);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(61, 13);
-            this.label1.TabIndex = 6;
-            this.label1.Text = "My Library";
+            this.songs1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(23)))), ((int)(((byte)(17)))), ((int)(((byte)(29)))));
+            this.songs1.Location = new System.Drawing.Point(141, 3);
+            this.songs1.Name = "songs1";
+            this.songs1.Size = new System.Drawing.Size(132, 178);
+            this.songs1.TabIndex = 9;
             // 
-            // panel1
+            // songs2
             // 
-            this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(29)))), ((int)(((byte)(19)))), ((int)(((byte)(40)))));
-            this.panel1.Controls.Add(this.label1);
-            this.panel1.Controls.Add(this.Home);
-            this.panel1.Controls.Add(this.pictureBox3);
-            this.panel1.Controls.Add(this.pictureBox2);
-            this.panel1.Controls.Add(this.InspiroMix);
-            this.panel1.Location = new System.Drawing.Point(-5, -3);
-            this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(160, 455);
-            this.panel1.TabIndex = 134;
+            this.songs2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(23)))), ((int)(((byte)(17)))), ((int)(((byte)(29)))));
+            this.songs2.Location = new System.Drawing.Point(279, 3);
+            this.songs2.Name = "songs2";
+            this.songs2.Size = new System.Drawing.Size(132, 178);
+            this.songs2.TabIndex = 10;
+            // 
+            // songs4
+            // 
+            this.songs4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(23)))), ((int)(((byte)(17)))), ((int)(((byte)(29)))));
+            this.songs4.Location = new System.Drawing.Point(417, 3);
+            this.songs4.Name = "songs4";
+            this.songs4.Size = new System.Drawing.Size(132, 178);
+            this.songs4.TabIndex = 11;
+            // 
+            // songs5
+            // 
+            this.songs5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(23)))), ((int)(((byte)(17)))), ((int)(((byte)(29)))));
+            this.songs5.Location = new System.Drawing.Point(555, 3);
+            this.songs5.Name = "songs5";
+            this.songs5.Size = new System.Drawing.Size(132, 178);
+            this.songs5.TabIndex = 12;
+            // 
+            // songs7
+            // 
+            this.songs7.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(23)))), ((int)(((byte)(17)))), ((int)(((byte)(29)))));
+            this.songs7.Location = new System.Drawing.Point(141, 3);
+            this.songs7.Name = "songs7";
+            this.songs7.Size = new System.Drawing.Size(132, 178);
+            this.songs7.TabIndex = 9;
+            // 
+            // songs8
+            // 
+            this.songs8.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(23)))), ((int)(((byte)(17)))), ((int)(((byte)(29)))));
+            this.songs8.Location = new System.Drawing.Point(279, 3);
+            this.songs8.Name = "songs8";
+            this.songs8.Size = new System.Drawing.Size(132, 178);
+            this.songs8.TabIndex = 10;
+            // 
+            // songs9
+            // 
+            this.songs9.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(23)))), ((int)(((byte)(17)))), ((int)(((byte)(29)))));
+            this.songs9.Location = new System.Drawing.Point(417, 3);
+            this.songs9.Name = "songs9";
+            this.songs9.Size = new System.Drawing.Size(132, 178);
+            this.songs9.TabIndex = 11;
+            // 
+            // songs10
+            // 
+            this.songs10.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(23)))), ((int)(((byte)(17)))), ((int)(((byte)(29)))));
+            this.songs10.Location = new System.Drawing.Point(555, 3);
+            this.songs10.Name = "songs10";
+            this.songs10.Size = new System.Drawing.Size(132, 178);
+            this.songs10.TabIndex = 12;
+            // 
+            // flowLayoutPanel4
+            // 
+            this.flowLayoutPanel4.Controls.Add(this.songs11);
+            this.flowLayoutPanel4.Controls.Add(this.songs12);
+            this.flowLayoutPanel4.Controls.Add(this.songs13);
+            this.flowLayoutPanel4.Controls.Add(this.songs14);
+            this.flowLayoutPanel4.Controls.Add(this.songs15);
+            this.flowLayoutPanel4.Location = new System.Drawing.Point(10, 34);
+            this.flowLayoutPanel4.Name = "flowLayoutPanel4";
+            this.flowLayoutPanel4.Size = new System.Drawing.Size(694, 185);
+            this.flowLayoutPanel4.TabIndex = 13;
+            // 
+            // songs11
+            // 
+            this.songs11.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(23)))), ((int)(((byte)(17)))), ((int)(((byte)(29)))));
+            this.songs11.Location = new System.Drawing.Point(3, 3);
+            this.songs11.Name = "songs11";
+            this.songs11.Size = new System.Drawing.Size(132, 178);
+            this.songs11.TabIndex = 8;
+            // 
+            // songs12
+            // 
+            this.songs12.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(23)))), ((int)(((byte)(17)))), ((int)(((byte)(29)))));
+            this.songs12.Location = new System.Drawing.Point(141, 3);
+            this.songs12.Name = "songs12";
+            this.songs12.Size = new System.Drawing.Size(132, 178);
+            this.songs12.TabIndex = 9;
+            // 
+            // songs13
+            // 
+            this.songs13.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(23)))), ((int)(((byte)(17)))), ((int)(((byte)(29)))));
+            this.songs13.Location = new System.Drawing.Point(279, 3);
+            this.songs13.Name = "songs13";
+            this.songs13.Size = new System.Drawing.Size(132, 178);
+            this.songs13.TabIndex = 10;
+            // 
+            // songs15
+            // 
+            this.songs15.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(23)))), ((int)(((byte)(17)))), ((int)(((byte)(29)))));
+            this.songs15.Location = new System.Drawing.Point(555, 3);
+            this.songs15.Name = "songs15";
+            this.songs15.Size = new System.Drawing.Size(132, 178);
+            this.songs15.TabIndex = 12;
+            // 
+            // topartist2
+            // 
+            this.topartist2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(23)))), ((int)(((byte)(17)))), ((int)(((byte)(29)))));
+            this.topartist2.Location = new System.Drawing.Point(199, 3);
+            this.topartist2.Name = "topartist2";
+            this.topartist2.Size = new System.Drawing.Size(92, 107);
+            this.topartist2.TabIndex = 5;
+            // 
+            // play_bar
+            // 
+            this.play_bar.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(23)))), ((int)(((byte)(17)))), ((int)(((byte)(29)))));
+            this.play_bar.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.play_bar.Controls.Add(this.guna2TrackBar1);
+            this.play_bar.Controls.Add(this.guna2ProgressBar1);
+            this.play_bar.Controls.Add(this.label43);
+            this.play_bar.Controls.Add(this.label44);
+            this.play_bar.Controls.Add(this.heart_active);
+            this.play_bar.Controls.Add(this.transfer_images);
+            this.play_bar.Controls.Add(this.pictureBox40);
+            this.play_bar.Controls.Add(this.Play_button);
+            this.play_bar.Controls.Add(this.pictureBox38);
+            this.play_bar.Controls.Add(this.pictureBox37);
+            this.play_bar.Controls.Add(this.pictureBox36);
+            this.play_bar.Controls.Add(this.pictureBox35);
+            this.play_bar.Controls.Add(this.pictureBox34);
+            this.play_bar.Controls.Add(this.pictureBox33);
+            this.play_bar.Location = new System.Drawing.Point(-4, 448);
+            this.play_bar.Name = "play_bar";
+            this.play_bar.Size = new System.Drawing.Size(884, 64);
+            this.play_bar.TabIndex = 137;
+            // 
+            // pictureBox10
+            // 
+            this.pictureBox10.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.pictureBox10.Location = new System.Drawing.Point(8, 816);
+            this.pictureBox10.Name = "pictureBox10";
+            this.pictureBox10.Size = new System.Drawing.Size(696, 27);
+            this.pictureBox10.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox10.TabIndex = 135;
+            this.pictureBox10.TabStop = false;
+            this.pictureBox10.Tag = "blocks";
             // 
             // Home
             // 
@@ -385,52 +436,18 @@
             this.Home.TabIndex = 5;
             this.Home.Text = "Home";
             // 
-            // pictureBox3
+            // label4
             // 
-            this.pictureBox3.BackColor = System.Drawing.Color.Transparent;
-            this.pictureBox3.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.pictureBox3.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox3.Image")));
-            this.pictureBox3.Location = new System.Drawing.Point(18, 82);
-            this.pictureBox3.Name = "pictureBox3";
-            this.pictureBox3.Size = new System.Drawing.Size(18, 20);
-            this.pictureBox3.TabIndex = 4;
-            this.pictureBox3.TabStop = false;
-            // 
-            // pictureBox2
-            // 
-            this.pictureBox2.BackColor = System.Drawing.Color.Transparent;
-            this.pictureBox2.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.pictureBox2.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox2.Image")));
-            this.pictureBox2.Location = new System.Drawing.Point(18, 116);
-            this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(15, 15);
-            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
-            this.pictureBox2.TabIndex = 3;
-            this.pictureBox2.TabStop = false;
-            // 
-            // InspiroMix
-            // 
-            this.InspiroMix.BackColor = System.Drawing.Color.Transparent;
-            this.InspiroMix.Image = ((System.Drawing.Image)(resources.GetObject("InspiroMix.Image")));
-            this.InspiroMix.Location = new System.Drawing.Point(18, 18);
-            this.InspiroMix.Name = "InspiroMix";
-            this.InspiroMix.Size = new System.Drawing.Size(84, 20);
-            this.InspiroMix.TabIndex = 1;
-            this.InspiroMix.TabStop = false;
-            // 
-            // panel3
-            // 
-            this.panel3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(23)))), ((int)(((byte)(17)))), ((int)(((byte)(29)))));
-            this.panel3.Controls.Add(this.pictureBox30);
-            this.panel3.Controls.Add(this.pictureBox29);
-            this.panel3.Controls.Add(this.pictureBox28);
-            this.panel3.Controls.Add(this.pictureBox27);
-            this.panel3.Controls.Add(this.textBox1);
-            this.panel3.Controls.Add(this.pictureBox4);
-            this.panel3.Location = new System.Drawing.Point(152, -3);
-            this.panel3.Name = "panel3";
-            this.panel3.Size = new System.Drawing.Size(719, 71);
-            this.panel3.TabIndex = 135;
+            this.label4.AutoSize = true;
+            this.label4.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.label4.Font = new System.Drawing.Font("Lato", 15.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label4.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.label4.Location = new System.Drawing.Point(11, 222);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(110, 25);
+            this.label4.TabIndex = 20;
+            this.label4.Tag = "blocks";
+            this.label4.Text = "Top artists";
             // 
             // pictureBox30
             // 
@@ -503,1080 +520,333 @@
             this.pictureBox4.TabIndex = 0;
             this.pictureBox4.TabStop = false;
             // 
-            // bunifuElipse1
+            // see_more
             // 
-            this.bunifuElipse1.ElipseRadius = 5;
-            this.bunifuElipse1.TargetControl = this;
+            this.see_more.ActiveLinkColor = System.Drawing.Color.White;
+            this.see_more.AutoSize = true;
+            this.see_more.Font = new System.Drawing.Font("Lato Semibold", 9.749999F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.see_more.LinkColor = System.Drawing.Color.White;
+            this.see_more.Location = new System.Drawing.Point(635, 14);
+            this.see_more.Name = "see_more";
+            this.see_more.Size = new System.Drawing.Size(61, 16);
+            this.see_more.TabIndex = 10;
+            this.see_more.TabStop = true;
+            this.see_more.Tag = "blocks";
+            this.see_more.Text = "See more";
+            // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Font = new System.Drawing.Font("Lato", 15.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label3.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.label3.Location = new System.Drawing.Point(10, 6);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(138, 25);
+            this.label3.TabIndex = 9;
+            this.label3.Tag = "blocks";
+            this.label3.Text = "New realease";
+            // 
+            // InspiroMix
+            // 
+            this.InspiroMix.BackColor = System.Drawing.Color.Transparent;
+            this.InspiroMix.Image = ((System.Drawing.Image)(resources.GetObject("InspiroMix.Image")));
+            this.InspiroMix.Location = new System.Drawing.Point(18, 18);
+            this.InspiroMix.Name = "InspiroMix";
+            this.InspiroMix.Size = new System.Drawing.Size(84, 20);
+            this.InspiroMix.TabIndex = 1;
+            this.InspiroMix.TabStop = false;
             // 
             // disable_bar
             // 
             this.disable_bar.Image = ((System.Drawing.Image)(resources.GetObject("disable_bar.Image")));
-            this.disable_bar.Location = new System.Drawing.Point(-7, 451);
+            this.disable_bar.Location = new System.Drawing.Point(2, 449);
             this.disable_bar.Name = "disable_bar";
-            this.disable_bar.Size = new System.Drawing.Size(878, 66);
+            this.disable_bar.Size = new System.Drawing.Size(889, 66);
             this.disable_bar.TabIndex = 136;
             this.disable_bar.TabStop = false;
             // 
-            // panel4
-            // 
-            this.panel4.AutoScroll = true;
-            this.panel4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(23)))), ((int)(((byte)(17)))), ((int)(((byte)(29)))));
-            this.panel4.Controls.Add(this.label44);
-            this.panel4.Controls.Add(this.label45);
-            this.panel4.Controls.Add(this.label46);
-            this.panel4.Controls.Add(this.pictureBox1);
-            this.panel4.Controls.Add(this.label47);
-            this.panel4.Controls.Add(this.label48);
-            this.panel4.Controls.Add(this.pictureBox31);
-            this.panel4.Controls.Add(this.label49);
-            this.panel4.Controls.Add(this.label50);
-            this.panel4.Controls.Add(this.pictureBox32);
-            this.panel4.Controls.Add(this.label51);
-            this.panel4.Controls.Add(this.label52);
-            this.panel4.Controls.Add(this.pictureBox41);
-            this.panel4.Controls.Add(this.label53);
-            this.panel4.Controls.Add(this.label54);
-            this.panel4.Controls.Add(this.pictureBox42);
-            this.panel4.Controls.Add(this.linkLabel3);
-            this.panel4.Controls.Add(this.label55);
-            this.panel4.Controls.Add(this.label56);
-            this.panel4.Controls.Add(this.label57);
-            this.panel4.Controls.Add(this.pictureBox43);
-            this.panel4.Controls.Add(this.label58);
-            this.panel4.Controls.Add(this.label59);
-            this.panel4.Controls.Add(this.pictureBox44);
-            this.panel4.Controls.Add(this.label60);
-            this.panel4.Controls.Add(this.label61);
-            this.panel4.Controls.Add(this.pictureBox45);
-            this.panel4.Controls.Add(this.label62);
-            this.panel4.Controls.Add(this.label63);
-            this.panel4.Controls.Add(this.pictureBox46);
-            this.panel4.Controls.Add(this.label64);
-            this.panel4.Controls.Add(this.label65);
-            this.panel4.Controls.Add(this.pictureBox47);
-            this.panel4.Controls.Add(this.linkLabel4);
-            this.panel4.Controls.Add(this.label66);
-            this.panel4.Controls.Add(this.label67);
-            this.panel4.Controls.Add(this.label68);
-            this.panel4.Controls.Add(this.pictureBox48);
-            this.panel4.Controls.Add(this.label69);
-            this.panel4.Controls.Add(this.label70);
-            this.panel4.Controls.Add(this.pictureBox49);
-            this.panel4.Controls.Add(this.label71);
-            this.panel4.Controls.Add(this.label72);
-            this.panel4.Controls.Add(this.pictureBox50);
-            this.panel4.Controls.Add(this.label73);
-            this.panel4.Controls.Add(this.label74);
-            this.panel4.Controls.Add(this.pictureBox51);
-            this.panel4.Controls.Add(this.label75);
-            this.panel4.Controls.Add(this.label76);
-            this.panel4.Controls.Add(this.label77);
-            this.panel4.Controls.Add(this.label78);
-            this.panel4.Controls.Add(this.label79);
-            this.panel4.Controls.Add(this.label80);
-            this.panel4.Controls.Add(this.label81);
-            this.panel4.Controls.Add(this.pictureBox52);
-            this.panel4.Controls.Add(this.pictureBox53);
-            this.panel4.Controls.Add(this.pictureBox54);
-            this.panel4.Controls.Add(this.pictureBox55);
-            this.panel4.Controls.Add(this.pictureBox56);
-            this.panel4.Controls.Add(this.pictureBox57);
-            this.panel4.Controls.Add(this.pictureBox58);
-            this.panel4.Controls.Add(this.label82);
-            this.panel4.Controls.Add(this.pictureBox59);
-            this.panel4.Controls.Add(this.linkLabel5);
-            this.panel4.Controls.Add(this.label83);
-            this.panel4.Location = new System.Drawing.Point(155, 67);
-            this.panel4.Name = "panel4";
-            this.panel4.Size = new System.Drawing.Size(733, 390);
-            this.panel4.TabIndex = 131;
-            this.panel4.Paint += new System.Windows.Forms.PaintEventHandler(this.panel4_Paint);
-            // 
-            // label44
-            // 
-            this.label44.AutoSize = true;
-            this.label44.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.label44.Font = new System.Drawing.Font("Lato", 9.749999F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label44.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.label44.Location = new System.Drawing.Point(17, 182);
-            this.label44.Name = "label44";
-            this.label44.Size = new System.Drawing.Size(127, 16);
-            this.label44.TabIndex = 130;
-            this.label44.Tag = "blocks";
-            this.label44.Text = "Can\'t take my eyes...";
-            // 
-            // label45
-            // 
-            this.label45.AutoSize = true;
-            this.label45.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.label45.Font = new System.Drawing.Font("Lato", 9.749999F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label45.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.label45.Location = new System.Drawing.Point(573, 756);
-            this.label45.Name = "label45";
-            this.label45.Size = new System.Drawing.Size(127, 16);
-            this.label45.TabIndex = 129;
-            this.label45.Tag = "blocks";
-            this.label45.Text = "Can\'t take my eyes...";
-            // 
-            // label46
-            // 
-            this.label46.AutoSize = true;
-            this.label46.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.label46.Font = new System.Drawing.Font("Lato", 8.25F, System.Drawing.FontStyle.Underline, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label46.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(197)))), ((int)(((byte)(197)))), ((int)(((byte)(197)))));
-            this.label46.Location = new System.Drawing.Point(573, 774);
-            this.label46.Name = "label46";
-            this.label46.Size = new System.Drawing.Size(53, 13);
-            this.label46.TabIndex = 128;
-            this.label46.Tag = "blocks";
-            this.label46.Text = "Top picks";
-            // 
-            // pictureBox1
-            // 
-            this.pictureBox1.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
-            this.pictureBox1.Location = new System.Drawing.Point(576, 629);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(122, 122);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox1.TabIndex = 127;
-            this.pictureBox1.TabStop = false;
-            this.pictureBox1.Tag = "blocks";
-            // 
-            // label47
-            // 
-            this.label47.AutoSize = true;
-            this.label47.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.label47.Font = new System.Drawing.Font("Lato", 9.749999F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label47.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.label47.Location = new System.Drawing.Point(433, 756);
-            this.label47.Name = "label47";
-            this.label47.Size = new System.Drawing.Size(127, 16);
-            this.label47.TabIndex = 126;
-            this.label47.Tag = "blocks";
-            this.label47.Text = "Can\'t take my eyes...";
-            // 
-            // label48
-            // 
-            this.label48.AutoSize = true;
-            this.label48.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.label48.Font = new System.Drawing.Font("Lato", 8.25F, System.Drawing.FontStyle.Underline, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label48.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(197)))), ((int)(((byte)(197)))), ((int)(((byte)(197)))));
-            this.label48.Location = new System.Drawing.Point(433, 774);
-            this.label48.Name = "label48";
-            this.label48.Size = new System.Drawing.Size(53, 13);
-            this.label48.TabIndex = 125;
-            this.label48.Tag = "blocks";
-            this.label48.Text = "Top picks";
-            // 
-            // pictureBox31
-            // 
-            this.pictureBox31.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.pictureBox31.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox31.Image")));
-            this.pictureBox31.Location = new System.Drawing.Point(436, 629);
-            this.pictureBox31.Name = "pictureBox31";
-            this.pictureBox31.Size = new System.Drawing.Size(122, 122);
-            this.pictureBox31.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox31.TabIndex = 124;
-            this.pictureBox31.TabStop = false;
-            this.pictureBox31.Tag = "blocks";
-            // 
-            // label49
-            // 
-            this.label49.AutoSize = true;
-            this.label49.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.label49.Font = new System.Drawing.Font("Lato", 9.749999F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label49.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.label49.Location = new System.Drawing.Point(295, 756);
-            this.label49.Name = "label49";
-            this.label49.Size = new System.Drawing.Size(127, 16);
-            this.label49.TabIndex = 123;
-            this.label49.Tag = "blocks";
-            this.label49.Text = "Can\'t take my eyes...";
-            // 
-            // label50
-            // 
-            this.label50.AutoSize = true;
-            this.label50.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.label50.Font = new System.Drawing.Font("Lato", 8.25F, System.Drawing.FontStyle.Underline, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label50.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(197)))), ((int)(((byte)(197)))), ((int)(((byte)(197)))));
-            this.label50.Location = new System.Drawing.Point(295, 774);
-            this.label50.Name = "label50";
-            this.label50.Size = new System.Drawing.Size(53, 13);
-            this.label50.TabIndex = 122;
-            this.label50.Tag = "blocks";
-            this.label50.Text = "Top picks";
-            // 
-            // pictureBox32
-            // 
-            this.pictureBox32.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.pictureBox32.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox32.Image")));
-            this.pictureBox32.Location = new System.Drawing.Point(298, 629);
-            this.pictureBox32.Name = "pictureBox32";
-            this.pictureBox32.Size = new System.Drawing.Size(122, 122);
-            this.pictureBox32.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox32.TabIndex = 121;
-            this.pictureBox32.TabStop = false;
-            this.pictureBox32.Tag = "blocks";
-            // 
-            // label51
-            // 
-            this.label51.AutoSize = true;
-            this.label51.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.label51.Font = new System.Drawing.Font("Lato", 9.749999F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label51.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.label51.Location = new System.Drawing.Point(158, 756);
-            this.label51.Name = "label51";
-            this.label51.Size = new System.Drawing.Size(127, 16);
-            this.label51.TabIndex = 120;
-            this.label51.Tag = "blocks";
-            this.label51.Text = "Can\'t take my eyes...";
-            // 
-            // label52
-            // 
-            this.label52.AutoSize = true;
-            this.label52.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.label52.Font = new System.Drawing.Font("Lato", 8.25F, System.Drawing.FontStyle.Underline, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label52.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(197)))), ((int)(((byte)(197)))), ((int)(((byte)(197)))));
-            this.label52.Location = new System.Drawing.Point(158, 774);
-            this.label52.Name = "label52";
-            this.label52.Size = new System.Drawing.Size(53, 13);
-            this.label52.TabIndex = 119;
-            this.label52.Tag = "blocks";
-            this.label52.Text = "Top picks";
-            // 
-            // pictureBox41
-            // 
-            this.pictureBox41.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.pictureBox41.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox41.Image")));
-            this.pictureBox41.Location = new System.Drawing.Point(161, 629);
-            this.pictureBox41.Name = "pictureBox41";
-            this.pictureBox41.Size = new System.Drawing.Size(122, 122);
-            this.pictureBox41.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox41.TabIndex = 118;
-            this.pictureBox41.TabStop = false;
-            this.pictureBox41.Tag = "blocks";
-            // 
-            // label53
-            // 
-            this.label53.AutoSize = true;
-            this.label53.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.label53.Font = new System.Drawing.Font("Lato", 9.749999F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label53.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.label53.Location = new System.Drawing.Point(21, 756);
-            this.label53.Name = "label53";
-            this.label53.Size = new System.Drawing.Size(127, 16);
-            this.label53.TabIndex = 117;
-            this.label53.Tag = "blocks";
-            this.label53.Text = "Can\'t take my eyes...";
-            // 
-            // label54
-            // 
-            this.label54.AutoSize = true;
-            this.label54.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.label54.Font = new System.Drawing.Font("Lato", 8.25F, System.Drawing.FontStyle.Underline, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label54.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(197)))), ((int)(((byte)(197)))), ((int)(((byte)(197)))));
-            this.label54.Location = new System.Drawing.Point(21, 774);
-            this.label54.Name = "label54";
-            this.label54.Size = new System.Drawing.Size(53, 13);
-            this.label54.TabIndex = 116;
-            this.label54.Tag = "blocks";
-            this.label54.Text = "Top picks";
-            // 
-            // pictureBox42
-            // 
-            this.pictureBox42.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.pictureBox42.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox42.Image")));
-            this.pictureBox42.Location = new System.Drawing.Point(24, 629);
-            this.pictureBox42.Name = "pictureBox42";
-            this.pictureBox42.Size = new System.Drawing.Size(122, 122);
-            this.pictureBox42.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox42.TabIndex = 115;
-            this.pictureBox42.TabStop = false;
-            this.pictureBox42.Tag = "blocks";
-            // 
-            // linkLabel3
-            // 
-            this.linkLabel3.ActiveLinkColor = System.Drawing.Color.White;
-            this.linkLabel3.AutoSize = true;
-            this.linkLabel3.Font = new System.Drawing.Font("Lato Semibold", 9.749999F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.linkLabel3.LinkColor = System.Drawing.Color.White;
-            this.linkLabel3.Location = new System.Drawing.Point(635, 601);
-            this.linkLabel3.Name = "linkLabel3";
-            this.linkLabel3.Size = new System.Drawing.Size(61, 16);
-            this.linkLabel3.TabIndex = 114;
-            this.linkLabel3.TabStop = true;
-            this.linkLabel3.Tag = "blocks";
-            this.linkLabel3.Text = "See more";
-            // 
-            // label55
-            // 
-            this.label55.AutoSize = true;
-            this.label55.Font = new System.Drawing.Font("Lato", 15.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label55.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.label55.Location = new System.Drawing.Point(19, 593);
-            this.label55.Name = "label55";
-            this.label55.Size = new System.Drawing.Size(136, 25);
-            this.label55.TabIndex = 113;
-            this.label55.Tag = "blocks";
-            this.label55.Text = "New releases";
-            // 
-            // label56
-            // 
-            this.label56.AutoSize = true;
-            this.label56.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.label56.Font = new System.Drawing.Font("Lato", 9.749999F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label56.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.label56.Location = new System.Drawing.Point(569, 544);
-            this.label56.Name = "label56";
-            this.label56.Size = new System.Drawing.Size(127, 16);
-            this.label56.TabIndex = 112;
-            this.label56.Tag = "blocks";
-            this.label56.Text = "Can\'t take my eyes...";
-            // 
-            // label57
-            // 
-            this.label57.AutoSize = true;
-            this.label57.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.label57.Font = new System.Drawing.Font("Lato", 8.25F, System.Drawing.FontStyle.Underline, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label57.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(197)))), ((int)(((byte)(197)))), ((int)(((byte)(197)))));
-            this.label57.Location = new System.Drawing.Point(569, 562);
-            this.label57.Name = "label57";
-            this.label57.Size = new System.Drawing.Size(53, 13);
-            this.label57.TabIndex = 111;
-            this.label57.Tag = "blocks";
-            this.label57.Text = "Top picks";
-            // 
-            // pictureBox43
-            // 
-            this.pictureBox43.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.pictureBox43.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox43.Image")));
-            this.pictureBox43.Location = new System.Drawing.Point(572, 417);
-            this.pictureBox43.Name = "pictureBox43";
-            this.pictureBox43.Size = new System.Drawing.Size(122, 122);
-            this.pictureBox43.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox43.TabIndex = 110;
-            this.pictureBox43.TabStop = false;
-            this.pictureBox43.Tag = "blocks";
-            // 
-            // label58
-            // 
-            this.label58.AutoSize = true;
-            this.label58.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.label58.Font = new System.Drawing.Font("Lato", 9.749999F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label58.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.label58.Location = new System.Drawing.Point(429, 544);
-            this.label58.Name = "label58";
-            this.label58.Size = new System.Drawing.Size(127, 16);
-            this.label58.TabIndex = 109;
-            this.label58.Tag = "blocks";
-            this.label58.Text = "Can\'t take my eyes...";
-            // 
-            // label59
-            // 
-            this.label59.AutoSize = true;
-            this.label59.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.label59.Font = new System.Drawing.Font("Lato", 8.25F, System.Drawing.FontStyle.Underline, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label59.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(197)))), ((int)(((byte)(197)))), ((int)(((byte)(197)))));
-            this.label59.Location = new System.Drawing.Point(429, 562);
-            this.label59.Name = "label59";
-            this.label59.Size = new System.Drawing.Size(53, 13);
-            this.label59.TabIndex = 108;
-            this.label59.Tag = "blocks";
-            this.label59.Text = "Top picks";
-            // 
-            // pictureBox44
-            // 
-            this.pictureBox44.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.pictureBox44.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox44.Image")));
-            this.pictureBox44.Location = new System.Drawing.Point(432, 417);
-            this.pictureBox44.Name = "pictureBox44";
-            this.pictureBox44.Size = new System.Drawing.Size(122, 122);
-            this.pictureBox44.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox44.TabIndex = 107;
-            this.pictureBox44.TabStop = false;
-            this.pictureBox44.Tag = "blocks";
-            // 
-            // label60
-            // 
-            this.label60.AutoSize = true;
-            this.label60.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.label60.Font = new System.Drawing.Font("Lato", 9.749999F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label60.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.label60.Location = new System.Drawing.Point(291, 544);
-            this.label60.Name = "label60";
-            this.label60.Size = new System.Drawing.Size(127, 16);
-            this.label60.TabIndex = 106;
-            this.label60.Tag = "blocks";
-            this.label60.Text = "Can\'t take my eyes...";
-            // 
-            // label61
-            // 
-            this.label61.AutoSize = true;
-            this.label61.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.label61.Font = new System.Drawing.Font("Lato", 8.25F, System.Drawing.FontStyle.Underline, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label61.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(197)))), ((int)(((byte)(197)))), ((int)(((byte)(197)))));
-            this.label61.Location = new System.Drawing.Point(291, 562);
-            this.label61.Name = "label61";
-            this.label61.Size = new System.Drawing.Size(53, 13);
-            this.label61.TabIndex = 105;
-            this.label61.Tag = "blocks";
-            this.label61.Text = "Top picks";
-            // 
-            // pictureBox45
-            // 
-            this.pictureBox45.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.pictureBox45.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox45.Image")));
-            this.pictureBox45.Location = new System.Drawing.Point(294, 417);
-            this.pictureBox45.Name = "pictureBox45";
-            this.pictureBox45.Size = new System.Drawing.Size(122, 122);
-            this.pictureBox45.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox45.TabIndex = 104;
-            this.pictureBox45.TabStop = false;
-            this.pictureBox45.Tag = "blocks";
-            // 
-            // label62
-            // 
-            this.label62.AutoSize = true;
-            this.label62.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.label62.Font = new System.Drawing.Font("Lato", 9.749999F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label62.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.label62.Location = new System.Drawing.Point(154, 544);
-            this.label62.Name = "label62";
-            this.label62.Size = new System.Drawing.Size(127, 16);
-            this.label62.TabIndex = 103;
-            this.label62.Tag = "blocks";
-            this.label62.Text = "Can\'t take my eyes...";
-            // 
-            // label63
-            // 
-            this.label63.AutoSize = true;
-            this.label63.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.label63.Font = new System.Drawing.Font("Lato", 8.25F, System.Drawing.FontStyle.Underline, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label63.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(197)))), ((int)(((byte)(197)))), ((int)(((byte)(197)))));
-            this.label63.Location = new System.Drawing.Point(154, 562);
-            this.label63.Name = "label63";
-            this.label63.Size = new System.Drawing.Size(53, 13);
-            this.label63.TabIndex = 102;
-            this.label63.Tag = "blocks";
-            this.label63.Text = "Top picks";
-            // 
-            // pictureBox46
-            // 
-            this.pictureBox46.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.pictureBox46.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox46.Image")));
-            this.pictureBox46.Location = new System.Drawing.Point(157, 417);
-            this.pictureBox46.Name = "pictureBox46";
-            this.pictureBox46.Size = new System.Drawing.Size(122, 122);
-            this.pictureBox46.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox46.TabIndex = 101;
-            this.pictureBox46.TabStop = false;
-            this.pictureBox46.Tag = "blocks";
-            // 
-            // label64
-            // 
-            this.label64.AutoSize = true;
-            this.label64.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.label64.Font = new System.Drawing.Font("Lato", 9.749999F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label64.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.label64.Location = new System.Drawing.Point(17, 544);
-            this.label64.Name = "label64";
-            this.label64.Size = new System.Drawing.Size(127, 16);
-            this.label64.TabIndex = 100;
-            this.label64.Tag = "blocks";
-            this.label64.Text = "Can\'t take my eyes...";
-            // 
-            // label65
-            // 
-            this.label65.AutoSize = true;
-            this.label65.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.label65.Font = new System.Drawing.Font("Lato", 8.25F, System.Drawing.FontStyle.Underline, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label65.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(197)))), ((int)(((byte)(197)))), ((int)(((byte)(197)))));
-            this.label65.Location = new System.Drawing.Point(17, 562);
-            this.label65.Name = "label65";
-            this.label65.Size = new System.Drawing.Size(53, 13);
-            this.label65.TabIndex = 99;
-            this.label65.Tag = "blocks";
-            this.label65.Text = "Top picks";
-            // 
-            // pictureBox47
-            // 
-            this.pictureBox47.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.pictureBox47.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox47.Image")));
-            this.pictureBox47.Location = new System.Drawing.Point(20, 417);
-            this.pictureBox47.Name = "pictureBox47";
-            this.pictureBox47.Size = new System.Drawing.Size(122, 122);
-            this.pictureBox47.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox47.TabIndex = 98;
-            this.pictureBox47.TabStop = false;
-            this.pictureBox47.Tag = "blocks";
-            // 
-            // linkLabel4
-            // 
-            this.linkLabel4.ActiveLinkColor = System.Drawing.Color.White;
-            this.linkLabel4.AutoSize = true;
-            this.linkLabel4.Font = new System.Drawing.Font("Lato Semibold", 9.749999F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.linkLabel4.LinkColor = System.Drawing.Color.White;
-            this.linkLabel4.Location = new System.Drawing.Point(635, 390);
-            this.linkLabel4.Name = "linkLabel4";
-            this.linkLabel4.Size = new System.Drawing.Size(61, 16);
-            this.linkLabel4.TabIndex = 97;
-            this.linkLabel4.TabStop = true;
-            this.linkLabel4.Tag = "blocks";
-            this.linkLabel4.Text = "See more";
-            // 
-            // label66
-            // 
-            this.label66.AutoSize = true;
-            this.label66.Font = new System.Drawing.Font("Lato", 15.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label66.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.label66.Location = new System.Drawing.Point(15, 381);
-            this.label66.Name = "label66";
-            this.label66.Size = new System.Drawing.Size(159, 25);
-            this.label66.TabIndex = 96;
-            this.label66.Tag = "blocks";
-            this.label66.Text = "Recently played";
-            // 
-            // label67
-            // 
-            this.label67.AutoSize = true;
-            this.label67.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.label67.Font = new System.Drawing.Font("Lato", 9.749999F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label67.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.label67.Location = new System.Drawing.Point(569, 182);
-            this.label67.Name = "label67";
-            this.label67.Size = new System.Drawing.Size(127, 16);
-            this.label67.TabIndex = 95;
-            this.label67.Tag = "blocks";
-            this.label67.Text = "Can\'t take my eyes...";
-            // 
-            // label68
-            // 
-            this.label68.AutoSize = true;
-            this.label68.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.label68.Font = new System.Drawing.Font("Lato", 8.25F, System.Drawing.FontStyle.Underline, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label68.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(197)))), ((int)(((byte)(197)))), ((int)(((byte)(197)))));
-            this.label68.Location = new System.Drawing.Point(569, 200);
-            this.label68.Name = "label68";
-            this.label68.Size = new System.Drawing.Size(53, 13);
-            this.label68.TabIndex = 94;
-            this.label68.Tag = "blocks";
-            this.label68.Text = "Top picks";
-            // 
-            // pictureBox48
-            // 
-            this.pictureBox48.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.pictureBox48.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox48.Image")));
-            this.pictureBox48.Location = new System.Drawing.Point(572, 55);
-            this.pictureBox48.Name = "pictureBox48";
-            this.pictureBox48.Size = new System.Drawing.Size(122, 122);
-            this.pictureBox48.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox48.TabIndex = 93;
-            this.pictureBox48.TabStop = false;
-            this.pictureBox48.Tag = "blocks";
-            // 
-            // label69
-            // 
-            this.label69.AutoSize = true;
-            this.label69.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.label69.Font = new System.Drawing.Font("Lato", 9.749999F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label69.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.label69.Location = new System.Drawing.Point(429, 182);
-            this.label69.Name = "label69";
-            this.label69.Size = new System.Drawing.Size(127, 16);
-            this.label69.TabIndex = 92;
-            this.label69.Tag = "blocks";
-            this.label69.Text = "Can\'t take my eyes...";
-            // 
-            // label70
-            // 
-            this.label70.AutoSize = true;
-            this.label70.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.label70.Font = new System.Drawing.Font("Lato", 8.25F, System.Drawing.FontStyle.Underline, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label70.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(197)))), ((int)(((byte)(197)))), ((int)(((byte)(197)))));
-            this.label70.Location = new System.Drawing.Point(429, 200);
-            this.label70.Name = "label70";
-            this.label70.Size = new System.Drawing.Size(53, 13);
-            this.label70.TabIndex = 91;
-            this.label70.Tag = "blocks";
-            this.label70.Text = "Top picks";
-            // 
-            // pictureBox49
-            // 
-            this.pictureBox49.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.pictureBox49.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox49.Image")));
-            this.pictureBox49.Location = new System.Drawing.Point(432, 55);
-            this.pictureBox49.Name = "pictureBox49";
-            this.pictureBox49.Size = new System.Drawing.Size(122, 122);
-            this.pictureBox49.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox49.TabIndex = 90;
-            this.pictureBox49.TabStop = false;
-            this.pictureBox49.Tag = "blocks";
-            // 
-            // label71
-            // 
-            this.label71.AutoSize = true;
-            this.label71.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.label71.Font = new System.Drawing.Font("Lato", 9.749999F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label71.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.label71.Location = new System.Drawing.Point(291, 182);
-            this.label71.Name = "label71";
-            this.label71.Size = new System.Drawing.Size(127, 16);
-            this.label71.TabIndex = 89;
-            this.label71.Tag = "blocks";
-            this.label71.Text = "Can\'t take my eyes...";
-            // 
-            // label72
-            // 
-            this.label72.AutoSize = true;
-            this.label72.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.label72.Font = new System.Drawing.Font("Lato", 8.25F, System.Drawing.FontStyle.Underline, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label72.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(197)))), ((int)(((byte)(197)))), ((int)(((byte)(197)))));
-            this.label72.Location = new System.Drawing.Point(291, 200);
-            this.label72.Name = "label72";
-            this.label72.Size = new System.Drawing.Size(53, 13);
-            this.label72.TabIndex = 88;
-            this.label72.Tag = "blocks";
-            this.label72.Text = "Top picks";
-            // 
-            // pictureBox50
-            // 
-            this.pictureBox50.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.pictureBox50.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox50.Image")));
-            this.pictureBox50.Location = new System.Drawing.Point(294, 55);
-            this.pictureBox50.Name = "pictureBox50";
-            this.pictureBox50.Size = new System.Drawing.Size(122, 122);
-            this.pictureBox50.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox50.TabIndex = 87;
-            this.pictureBox50.TabStop = false;
-            this.pictureBox50.Tag = "blocks";
-            // 
-            // label73
-            // 
-            this.label73.AutoSize = true;
-            this.label73.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.label73.Font = new System.Drawing.Font("Lato", 9.749999F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label73.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.label73.Location = new System.Drawing.Point(154, 182);
-            this.label73.Name = "label73";
-            this.label73.Size = new System.Drawing.Size(127, 16);
-            this.label73.TabIndex = 86;
-            this.label73.Tag = "blocks";
-            this.label73.Text = "Can\'t take my eyes...";
-            // 
-            // label74
-            // 
-            this.label74.AutoSize = true;
-            this.label74.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.label74.Font = new System.Drawing.Font("Lato", 8.25F, System.Drawing.FontStyle.Underline, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label74.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(197)))), ((int)(((byte)(197)))), ((int)(((byte)(197)))));
-            this.label74.Location = new System.Drawing.Point(154, 200);
-            this.label74.Name = "label74";
-            this.label74.Size = new System.Drawing.Size(53, 13);
-            this.label74.TabIndex = 85;
-            this.label74.Tag = "blocks";
-            this.label74.Text = "Top picks";
-            // 
-            // pictureBox51
-            // 
-            this.pictureBox51.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.pictureBox51.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox51.Image")));
-            this.pictureBox51.Location = new System.Drawing.Point(157, 55);
-            this.pictureBox51.Name = "pictureBox51";
-            this.pictureBox51.Size = new System.Drawing.Size(122, 122);
-            this.pictureBox51.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox51.TabIndex = 84;
-            this.pictureBox51.TabStop = false;
-            this.pictureBox51.Tag = "blocks";
-            // 
-            // label75
-            // 
-            this.label75.AutoSize = true;
-            this.label75.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.label75.Font = new System.Drawing.Font("Lato", 9.749999F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label75.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.label75.Location = new System.Drawing.Point(395, 348);
-            this.label75.Name = "label75";
-            this.label75.Size = new System.Drawing.Size(59, 16);
-            this.label75.TabIndex = 56;
-            this.label75.Tag = "blocks";
-            this.label75.Text = "Top picks";
-            // 
-            // label76
-            // 
-            this.label76.AutoSize = true;
-            this.label76.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.label76.Font = new System.Drawing.Font("Lato", 9.749999F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label76.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.label76.Location = new System.Drawing.Point(508, 348);
-            this.label76.Name = "label76";
-            this.label76.Size = new System.Drawing.Size(59, 16);
-            this.label76.TabIndex = 55;
-            this.label76.Tag = "blocks";
-            this.label76.Text = "Top picks";
-            // 
-            // label77
-            // 
-            this.label77.AutoSize = true;
-            this.label77.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.label77.Font = new System.Drawing.Font("Lato", 9.749999F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label77.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.label77.Location = new System.Drawing.Point(624, 348);
-            this.label77.Name = "label77";
-            this.label77.Size = new System.Drawing.Size(59, 16);
-            this.label77.TabIndex = 54;
-            this.label77.Tag = "blocks";
-            this.label77.Text = "Top picks";
-            // 
-            // label78
-            // 
-            this.label78.AutoSize = true;
-            this.label78.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.label78.Font = new System.Drawing.Font("Lato", 9.749999F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label78.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.label78.Location = new System.Drawing.Point(277, 348);
-            this.label78.Name = "label78";
-            this.label78.Size = new System.Drawing.Size(59, 16);
-            this.label78.TabIndex = 53;
-            this.label78.Tag = "blocks";
-            this.label78.Text = "Top picks";
-            // 
-            // label79
-            // 
-            this.label79.AutoSize = true;
-            this.label79.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.label79.Font = new System.Drawing.Font("Lato", 9.749999F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label79.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.label79.Location = new System.Drawing.Point(156, 348);
-            this.label79.Name = "label79";
-            this.label79.Size = new System.Drawing.Size(59, 16);
-            this.label79.TabIndex = 52;
-            this.label79.Tag = "blocks";
-            this.label79.Text = "Top picks";
-            // 
-            // label80
-            // 
-            this.label80.AutoSize = true;
-            this.label80.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.label80.Font = new System.Drawing.Font("Lato", 9.749999F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label80.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.label80.Location = new System.Drawing.Point(38, 348);
-            this.label80.Name = "label80";
-            this.label80.Size = new System.Drawing.Size(59, 16);
-            this.label80.TabIndex = 51;
-            this.label80.Tag = "blocks";
-            this.label80.Text = "Top picks";
-            // 
-            // label81
-            // 
-            this.label81.AutoSize = true;
-            this.label81.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.label81.Font = new System.Drawing.Font("Lato", 8.25F, System.Drawing.FontStyle.Underline, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label81.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(197)))), ((int)(((byte)(197)))), ((int)(((byte)(197)))));
-            this.label81.Location = new System.Drawing.Point(17, 200);
-            this.label81.Name = "label81";
-            this.label81.Size = new System.Drawing.Size(53, 13);
-            this.label81.TabIndex = 50;
-            this.label81.Tag = "blocks";
-            this.label81.Text = "Top picks";
-            // 
-            // pictureBox52
-            // 
-            this.pictureBox52.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.pictureBox52.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox52.Image")));
-            this.pictureBox52.Location = new System.Drawing.Point(616, 267);
-            this.pictureBox52.Name = "pictureBox52";
-            this.pictureBox52.Size = new System.Drawing.Size(78, 78);
-            this.pictureBox52.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox52.TabIndex = 40;
-            this.pictureBox52.TabStop = false;
-            this.pictureBox52.Tag = "blocks";
-            // 
-            // pictureBox53
-            // 
-            this.pictureBox53.Location = new System.Drawing.Point(0, 816);
-            this.pictureBox53.Name = "pictureBox53";
-            this.pictureBox53.Size = new System.Drawing.Size(716, 41);
-            this.pictureBox53.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox53.TabIndex = 27;
-            this.pictureBox53.TabStop = false;
-            // 
-            // pictureBox54
-            // 
-            this.pictureBox54.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.pictureBox54.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox54.Image")));
-            this.pictureBox54.Location = new System.Drawing.Point(149, 267);
-            this.pictureBox54.Name = "pictureBox54";
-            this.pictureBox54.Size = new System.Drawing.Size(78, 78);
-            this.pictureBox54.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox54.TabIndex = 26;
-            this.pictureBox54.TabStop = false;
-            this.pictureBox54.Tag = "blocks";
-            // 
-            // pictureBox55
-            // 
-            this.pictureBox55.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.pictureBox55.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox55.Image")));
-            this.pictureBox55.Location = new System.Drawing.Point(268, 267);
-            this.pictureBox55.Name = "pictureBox55";
-            this.pictureBox55.Size = new System.Drawing.Size(78, 78);
-            this.pictureBox55.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox55.TabIndex = 25;
-            this.pictureBox55.TabStop = false;
-            this.pictureBox55.Tag = "blocks";
-            // 
-            // pictureBox56
-            // 
-            this.pictureBox56.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.pictureBox56.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox56.Image")));
-            this.pictureBox56.Location = new System.Drawing.Point(385, 267);
-            this.pictureBox56.Name = "pictureBox56";
-            this.pictureBox56.Size = new System.Drawing.Size(78, 78);
-            this.pictureBox56.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox56.TabIndex = 24;
-            this.pictureBox56.TabStop = false;
-            this.pictureBox56.Tag = "blocks";
-            // 
-            // pictureBox57
-            // 
-            this.pictureBox57.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.pictureBox57.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox57.Image")));
-            this.pictureBox57.Location = new System.Drawing.Point(500, 267);
-            this.pictureBox57.Name = "pictureBox57";
-            this.pictureBox57.Size = new System.Drawing.Size(78, 78);
-            this.pictureBox57.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox57.TabIndex = 23;
-            this.pictureBox57.TabStop = false;
-            this.pictureBox57.Tag = "blocks";
-            // 
-            // pictureBox58
-            // 
-            this.pictureBox58.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.pictureBox58.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox58.Image")));
-            this.pictureBox58.Location = new System.Drawing.Point(30, 267);
-            this.pictureBox58.Name = "pictureBox58";
-            this.pictureBox58.Size = new System.Drawing.Size(78, 78);
-            this.pictureBox58.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox58.TabIndex = 21;
-            this.pictureBox58.TabStop = false;
-            this.pictureBox58.Tag = "blocks";
-            // 
-            // label82
-            // 
-            this.label82.AutoSize = true;
-            this.label82.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.label82.Font = new System.Drawing.Font("Lato", 15.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label82.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.label82.Location = new System.Drawing.Point(15, 232);
-            this.label82.Name = "label82";
-            this.label82.Size = new System.Drawing.Size(110, 25);
-            this.label82.TabIndex = 20;
-            this.label82.Tag = "blocks";
-            this.label82.Text = "Top artists";
-            // 
-            // pictureBox59
-            // 
-            this.pictureBox59.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.pictureBox59.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox59.Image")));
-            this.pictureBox59.Location = new System.Drawing.Point(20, 55);
-            this.pictureBox59.Name = "pictureBox59";
-            this.pictureBox59.Size = new System.Drawing.Size(122, 122);
-            this.pictureBox59.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox59.TabIndex = 12;
-            this.pictureBox59.TabStop = false;
-            this.pictureBox59.Tag = "blocks";
-            // 
-            // linkLabel5
-            // 
-            this.linkLabel5.ActiveLinkColor = System.Drawing.Color.White;
-            this.linkLabel5.AutoSize = true;
-            this.linkLabel5.Font = new System.Drawing.Font("Lato Semibold", 9.749999F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.linkLabel5.LinkColor = System.Drawing.Color.White;
-            this.linkLabel5.Location = new System.Drawing.Point(635, 28);
-            this.linkLabel5.Name = "linkLabel5";
-            this.linkLabel5.Size = new System.Drawing.Size(61, 16);
-            this.linkLabel5.TabIndex = 10;
-            this.linkLabel5.TabStop = true;
-            this.linkLabel5.Tag = "blocks";
-            this.linkLabel5.Text = "See more";
-            // 
-            // label83
-            // 
-            this.label83.AutoSize = true;
-            this.label83.Font = new System.Drawing.Font("Lato", 15.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label83.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.label83.Location = new System.Drawing.Point(15, 19);
-            this.label83.Name = "label83";
-            this.label83.Size = new System.Drawing.Size(98, 25);
-            this.label83.TabIndex = 9;
-            this.label83.Tag = "blocks";
-            this.label83.Text = "Top picks";
+            // label5
+            // 
+            this.label5.AutoSize = true;
+            this.label5.Font = new System.Drawing.Font("Lato", 15.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label5.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.label5.Location = new System.Drawing.Point(14, 600);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(100, 25);
+            this.label5.TabIndex = 134;
+            this.label5.Tag = "blocks";
+            this.label5.Text = "Songs list";
+            // 
+            // flowLayoutPanel3
+            // 
+            this.flowLayoutPanel3.Controls.Add(this.songs6);
+            this.flowLayoutPanel3.Controls.Add(this.songs7);
+            this.flowLayoutPanel3.Controls.Add(this.songs8);
+            this.flowLayoutPanel3.Controls.Add(this.songs9);
+            this.flowLayoutPanel3.Controls.Add(this.songs10);
+            this.flowLayoutPanel3.Location = new System.Drawing.Point(10, 629);
+            this.flowLayoutPanel3.Name = "flowLayoutPanel3";
+            this.flowLayoutPanel3.Size = new System.Drawing.Size(694, 185);
+            this.flowLayoutPanel3.TabIndex = 1;
+            // 
+            // songs6
+            // 
+            this.songs6.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(23)))), ((int)(((byte)(17)))), ((int)(((byte)(29)))));
+            this.songs6.Location = new System.Drawing.Point(3, 3);
+            this.songs6.Name = "songs6";
+            this.songs6.Size = new System.Drawing.Size(132, 178);
+            this.songs6.TabIndex = 0;
+            // 
+            // flowLayoutPanel2
+            // 
+            this.flowLayoutPanel2.Controls.Add(this.songs3);
+            this.flowLayoutPanel2.Controls.Add(this.songs1);
+            this.flowLayoutPanel2.Controls.Add(this.songs2);
+            this.flowLayoutPanel2.Controls.Add(this.songs4);
+            this.flowLayoutPanel2.Controls.Add(this.songs5);
+            this.flowLayoutPanel2.Location = new System.Drawing.Point(10, 402);
+            this.flowLayoutPanel2.Name = "flowLayoutPanel2";
+            this.flowLayoutPanel2.Size = new System.Drawing.Size(694, 185);
+            this.flowLayoutPanel2.TabIndex = 0;
+            // 
+            // songs3
+            // 
+            this.songs3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(23)))), ((int)(((byte)(17)))), ((int)(((byte)(29)))));
+            this.songs3.Location = new System.Drawing.Point(3, 3);
+            this.songs3.Name = "songs3";
+            this.songs3.Size = new System.Drawing.Size(132, 178);
+            this.songs3.TabIndex = 8;
+            // 
+            // label42
+            // 
+            this.label42.AutoSize = true;
+            this.label42.Font = new System.Drawing.Font("Lato", 15.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label42.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.label42.Location = new System.Drawing.Point(11, 374);
+            this.label42.Name = "label42";
+            this.label42.Size = new System.Drawing.Size(159, 25);
+            this.label42.TabIndex = 133;
+            this.label42.Tag = "blocks";
+            this.label42.Text = "Recently played";
+            // 
+            // flowLayoutPanel1
+            // 
+            this.flowLayoutPanel1.Controls.Add(this.topartist3);
+            this.flowLayoutPanel1.Controls.Add(this.topartist1);
+            this.flowLayoutPanel1.Controls.Add(this.topartist2);
+            this.flowLayoutPanel1.Location = new System.Drawing.Point(16, 251);
+            this.flowLayoutPanel1.Name = "flowLayoutPanel1";
+            this.flowLayoutPanel1.Size = new System.Drawing.Size(693, 114);
+            this.flowLayoutPanel1.TabIndex = 132;
+            // 
+            // topartist3
+            // 
+            this.topartist3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(23)))), ((int)(((byte)(17)))), ((int)(((byte)(29)))));
+            this.topartist3.Location = new System.Drawing.Point(3, 3);
+            this.topartist3.Name = "topartist3";
+            this.topartist3.Size = new System.Drawing.Size(92, 107);
+            this.topartist3.TabIndex = 3;
+            // 
+            // topartist1
+            // 
+            this.topartist1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(23)))), ((int)(((byte)(17)))), ((int)(((byte)(29)))));
+            this.topartist1.Location = new System.Drawing.Point(101, 3);
+            this.topartist1.Name = "topartist1";
+            this.topartist1.Size = new System.Drawing.Size(92, 107);
+            this.topartist1.TabIndex = 4;
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.label1.Font = new System.Drawing.Font("Lato Semibold", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(179)))), ((int)(((byte)(179)))), ((int)(((byte)(179)))));
+            this.label1.Location = new System.Drawing.Point(35, 121);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(61, 13);
+            this.label1.TabIndex = 6;
+            this.label1.Text = "My Library";
+            // 
+            // panel3
+            // 
+            this.panel3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(23)))), ((int)(((byte)(17)))), ((int)(((byte)(29)))));
+            this.panel3.Controls.Add(this.pictureBox30);
+            this.panel3.Controls.Add(this.pictureBox29);
+            this.panel3.Controls.Add(this.pictureBox28);
+            this.panel3.Controls.Add(this.pictureBox27);
+            this.panel3.Controls.Add(this.textBox1);
+            this.panel3.Controls.Add(this.pictureBox4);
+            this.panel3.Location = new System.Drawing.Point(161, -3);
+            this.panel3.Name = "panel3";
+            this.panel3.Size = new System.Drawing.Size(715, 71);
+            this.panel3.TabIndex = 135;
+            // 
+            // panel1
+            // 
+            this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(29)))), ((int)(((byte)(19)))), ((int)(((byte)(40)))));
+            this.panel1.Controls.Add(this.label1);
+            this.panel1.Controls.Add(this.Home);
+            this.panel1.Controls.Add(this.pictureBox3);
+            this.panel1.Controls.Add(this.pictureBox2);
+            this.panel1.Controls.Add(this.InspiroMix);
+            this.panel1.Location = new System.Drawing.Point(2, 0);
+            this.panel1.Name = "panel1";
+            this.panel1.Size = new System.Drawing.Size(160, 449);
+            this.panel1.TabIndex = 134;
+            // 
+            // pictureBox3
+            // 
+            this.pictureBox3.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox3.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.pictureBox3.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox3.Image")));
+            this.pictureBox3.Location = new System.Drawing.Point(18, 82);
+            this.pictureBox3.Name = "pictureBox3";
+            this.pictureBox3.Size = new System.Drawing.Size(18, 20);
+            this.pictureBox3.TabIndex = 4;
+            this.pictureBox3.TabStop = false;
+            // 
+            // pictureBox2
+            // 
+            this.pictureBox2.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox2.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.pictureBox2.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox2.Image")));
+            this.pictureBox2.Location = new System.Drawing.Point(18, 120);
+            this.pictureBox2.Name = "pictureBox2";
+            this.pictureBox2.Size = new System.Drawing.Size(15, 15);
+            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
+            this.pictureBox2.TabIndex = 3;
+            this.pictureBox2.TabStop = false;
+            // 
+            // panel2
+            // 
+            this.panel2.AutoScroll = true;
+            this.panel2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(23)))), ((int)(((byte)(17)))), ((int)(((byte)(29)))));
+            this.panel2.Controls.Add(this.flowLayoutPanel4);
+            this.panel2.Controls.Add(this.pictureBox10);
+            this.panel2.Controls.Add(this.label5);
+            this.panel2.Controls.Add(this.flowLayoutPanel3);
+            this.panel2.Controls.Add(this.flowLayoutPanel2);
+            this.panel2.Controls.Add(this.label42);
+            this.panel2.Controls.Add(this.flowLayoutPanel1);
+            this.panel2.Controls.Add(this.label4);
+            this.panel2.Controls.Add(this.see_more);
+            this.panel2.Controls.Add(this.label3);
+            this.panel2.Location = new System.Drawing.Point(162, 67);
+            this.panel2.Name = "panel2";
+            this.panel2.Size = new System.Drawing.Size(729, 381);
+            this.panel2.TabIndex = 133;
+            this.panel2.Paint += new System.Windows.Forms.PaintEventHandler(this.panel2_Paint);
             // 
             // homepage_fan
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(871, 513);
-            this.Controls.Add(this.panel4);
+            this.ClientSize = new System.Drawing.Size(887, 513);
             this.Controls.Add(this.play_bar);
             this.Controls.Add(this.disable_bar);
-            this.Controls.Add(this.panel1);
             this.Controls.Add(this.panel3);
-            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
+            this.Controls.Add(this.panel1);
+            this.Controls.Add(this.panel2);
             this.Name = "homepage_fan";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "homepage_fan";
             this.Load += new System.EventHandler(this.homepage_fan_Load);
-            this.play_bar.ResumeLayout(false);
-            this.play_bar.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.heart_active)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.transfer_images)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox40)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox39)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.Play_button)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox38)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox37)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox36)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox35)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox34)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox33)).EndInit();
-            this.panel1.ResumeLayout(false);
-            this.panel1.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.InspiroMix)).EndInit();
-            this.panel3.ResumeLayout(false);
-            this.panel3.PerformLayout();
+            this.flowLayoutPanel4.ResumeLayout(false);
+            this.play_bar.ResumeLayout(false);
+            this.play_bar.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox10)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox30)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox29)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox28)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox27)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.InspiroMix)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.disable_bar)).EndInit();
-            this.panel4.ResumeLayout(false);
-            this.panel4.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox31)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox32)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox41)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox42)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox43)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox44)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox45)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox46)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox47)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox48)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox49)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox50)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox51)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox52)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox53)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox54)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox55)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox56)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox57)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox58)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox59)).EndInit();
+            this.flowLayoutPanel3.ResumeLayout(false);
+            this.flowLayoutPanel2.ResumeLayout(false);
+            this.flowLayoutPanel1.ResumeLayout(false);
+            this.panel3.ResumeLayout(false);
+            this.panel3.PerformLayout();
+            this.panel1.ResumeLayout(false);
+            this.panel1.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
+            this.panel2.ResumeLayout(false);
+            this.panel2.PerformLayout();
             this.ResumeLayout(false);
 
         }
 
         #endregion
-        private System.Windows.Forms.Panel play_bar;
+
+        private Music_toppick.songs songs14;
+        private Guna.UI2.WinForms.Guna2TrackBar guna2TrackBar1;
+        private Guna.UI2.WinForms.Guna2ProgressBar guna2ProgressBar1;
+        private System.Windows.Forms.Label label43;
+        private System.Windows.Forms.Label label44;
+        private System.Windows.Forms.PictureBox heart_active;
+        private System.Windows.Forms.PictureBox transfer_images;
         private System.Windows.Forms.PictureBox pictureBox40;
-        private System.Windows.Forms.PictureBox pictureBox39;
+        private System.Windows.Forms.PictureBox Play_button;
         private System.Windows.Forms.PictureBox pictureBox38;
         private System.Windows.Forms.PictureBox pictureBox37;
         private System.Windows.Forms.PictureBox pictureBox36;
         private System.Windows.Forms.PictureBox pictureBox35;
         private System.Windows.Forms.PictureBox pictureBox34;
         private System.Windows.Forms.PictureBox pictureBox33;
-        private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.PictureBox disable_bar;
-        private System.Windows.Forms.Panel panel1;
+        private Music_toppick.songs songs1;
+        private Music_toppick.songs songs2;
+        private Music_toppick.songs songs4;
+        private Music_toppick.songs songs5;
+        private Music_toppick.songs songs7;
+        private Music_toppick.songs songs8;
+        private Music_toppick.songs songs9;
+        private Music_toppick.songs songs10;
+        private System.Windows.Forms.FlowLayoutPanel flowLayoutPanel4;
+        private Music_toppick.songs songs11;
+        private Music_toppick.songs songs12;
+        private Music_toppick.songs songs13;
+        private Music_toppick.songs songs15;
+        private Music_toppick.Topartist topartist2;
+        private System.Windows.Forms.Panel play_bar;
+        private System.Windows.Forms.PictureBox pictureBox10;
         private System.Windows.Forms.Label Home;
-        private System.Windows.Forms.PictureBox pictureBox3;
-        private System.Windows.Forms.PictureBox pictureBox2;
-        private System.Windows.Forms.PictureBox InspiroMix;
+        private System.ComponentModel.BackgroundWorker backgroundWorker1;
+        private System.Windows.Forms.Label label4;
         private System.Windows.Forms.PictureBox pictureBox30;
         private System.Windows.Forms.PictureBox pictureBox29;
-        private System.Windows.Forms.PictureBox pictureBox27;
-        private System.Windows.Forms.Panel panel3;
         private System.Windows.Forms.PictureBox pictureBox28;
+        private System.Windows.Forms.PictureBox pictureBox27;
         private System.Windows.Forms.TextBox textBox1;
         private System.Windows.Forms.PictureBox pictureBox4;
-        private System.ComponentModel.BackgroundWorker backgroundWorker1;
-        private System.Windows.Forms.PictureBox transfer_images;
-        private System.Windows.Forms.PictureBox heart_active;
-        private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.Label label43;
-        private Bunifu.Framework.UI.BunifuElipse bunifuElipse1;
-        private Guna.UI2.WinForms.Guna2ProgressBar guna2ProgressBar1;
-        private Guna.UI2.WinForms.Guna2TrackBar guna2TrackBar1;
-        private System.Windows.Forms.Panel panel4;
-        private System.Windows.Forms.Label label44;
-        private System.Windows.Forms.Label label45;
-        private System.Windows.Forms.Label label46;
-        private System.Windows.Forms.PictureBox pictureBox1;
-        private System.Windows.Forms.Label label47;
-        private System.Windows.Forms.Label label48;
-        private System.Windows.Forms.PictureBox pictureBox31;
-        private System.Windows.Forms.Label label49;
-        private System.Windows.Forms.Label label50;
-        private System.Windows.Forms.PictureBox pictureBox32;
-        private System.Windows.Forms.Label label51;
-        private System.Windows.Forms.Label label52;
-        private System.Windows.Forms.PictureBox pictureBox41;
-        private System.Windows.Forms.Label label53;
-        private System.Windows.Forms.Label label54;
-        private System.Windows.Forms.PictureBox pictureBox42;
-        private System.Windows.Forms.LinkLabel linkLabel3;
-        private System.Windows.Forms.Label label55;
-        private System.Windows.Forms.Label label56;
-        private System.Windows.Forms.Label label57;
-        private System.Windows.Forms.PictureBox pictureBox43;
-        private System.Windows.Forms.Label label58;
-        private System.Windows.Forms.Label label59;
-        private System.Windows.Forms.PictureBox pictureBox44;
-        private System.Windows.Forms.Label label60;
-        private System.Windows.Forms.Label label61;
-        private System.Windows.Forms.PictureBox pictureBox45;
-        private System.Windows.Forms.Label label62;
-        private System.Windows.Forms.Label label63;
-        private System.Windows.Forms.PictureBox pictureBox46;
-        private System.Windows.Forms.Label label64;
-        private System.Windows.Forms.Label label65;
-        private System.Windows.Forms.PictureBox pictureBox47;
-        private System.Windows.Forms.LinkLabel linkLabel4;
-        private System.Windows.Forms.Label label66;
-        private System.Windows.Forms.Label label67;
-        private System.Windows.Forms.Label label68;
-        private System.Windows.Forms.PictureBox pictureBox48;
-        private System.Windows.Forms.Label label69;
-        private System.Windows.Forms.Label label70;
-        private System.Windows.Forms.PictureBox pictureBox49;
-        private System.Windows.Forms.Label label71;
-        private System.Windows.Forms.Label label72;
-        private System.Windows.Forms.PictureBox pictureBox50;
-        private System.Windows.Forms.Label label73;
-        private System.Windows.Forms.Label label74;
-        private System.Windows.Forms.PictureBox pictureBox51;
-        private System.Windows.Forms.Label label75;
-        private System.Windows.Forms.Label label76;
-        private System.Windows.Forms.Label label77;
-        private System.Windows.Forms.Label label78;
-        private System.Windows.Forms.Label label79;
-        private System.Windows.Forms.Label label80;
-        private System.Windows.Forms.Label label81;
-        private System.Windows.Forms.PictureBox pictureBox52;
-        private System.Windows.Forms.PictureBox pictureBox53;
-        private System.Windows.Forms.PictureBox pictureBox54;
-        private System.Windows.Forms.PictureBox pictureBox55;
-        private System.Windows.Forms.PictureBox pictureBox56;
-        private System.Windows.Forms.PictureBox pictureBox57;
-        private System.Windows.Forms.PictureBox pictureBox58;
-        private System.Windows.Forms.Label label82;
-        private System.Windows.Forms.PictureBox pictureBox59;
-        private System.Windows.Forms.LinkLabel linkLabel5;
-        private System.Windows.Forms.Label label83;
+        private System.Windows.Forms.LinkLabel see_more;
+        private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.PictureBox InspiroMix;
+        private System.Windows.Forms.PictureBox disable_bar;
+        private System.Windows.Forms.Label label5;
+        private System.Windows.Forms.FlowLayoutPanel flowLayoutPanel3;
+        private Music_toppick.songs songs6;
+        private System.Windows.Forms.FlowLayoutPanel flowLayoutPanel2;
+        private Music_toppick.songs songs3;
+        private System.Windows.Forms.Label label42;
+        private System.Windows.Forms.FlowLayoutPanel flowLayoutPanel1;
+        private Music_toppick.Topartist topartist3;
+        private Music_toppick.Topartist topartist1;
+        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Panel panel3;
+        private System.Windows.Forms.Panel panel1;
+        private System.Windows.Forms.PictureBox pictureBox3;
+        private System.Windows.Forms.PictureBox pictureBox2;
+        private System.Windows.Forms.Panel panel2;
     }
 }

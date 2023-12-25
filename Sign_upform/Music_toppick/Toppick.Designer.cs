@@ -30,10 +30,7 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Toppick));
             this.guna2Panel2 = new Guna.UI2.WinForms.Guna2Panel();
-            this.pictureBox5 = new System.Windows.Forms.PictureBox();
-            this.linkicon = new System.Windows.Forms.PictureBox();
             this.linktext = new Guna.UI2.WinForms.Guna2Button();
-            this.zaloicon = new System.Windows.Forms.PictureBox();
             this.zalotext = new Guna.UI2.WinForms.Guna2Button();
             this.face_text = new Guna.UI2.WinForms.Guna2Button();
             this.label7 = new System.Windows.Forms.Label();
@@ -43,18 +40,21 @@
             this.guna2HtmlLabel1 = new Guna.UI2.WinForms.Guna2HtmlLabel();
             this.label12 = new System.Windows.Forms.Label();
             this.avatar_button = new Guna.UI2.WinForms.Guna2Button();
+            this.pictureBox5 = new System.Windows.Forms.PictureBox();
+            this.linkicon = new System.Windows.Forms.PictureBox();
+            this.zaloicon = new System.Windows.Forms.PictureBox();
             this.pictureBox7 = new System.Windows.Forms.PictureBox();
+            this.pictureBox9 = new System.Windows.Forms.PictureBox();
             this.pictureBox8 = new System.Windows.Forms.PictureBox();
             this.pictureBox6 = new System.Windows.Forms.PictureBox();
-            this.pictureBox9 = new System.Windows.Forms.PictureBox();
             this.guna2Panel2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.linkicon)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.zaloicon)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox9)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox8)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox9)).BeginInit();
             this.SuspendLayout();
             // 
             // guna2Panel2
@@ -69,37 +69,12 @@
             this.guna2Panel2.Controls.Add(this.zaloicon);
             this.guna2Panel2.Controls.Add(this.zalotext);
             this.guna2Panel2.Controls.Add(this.face_text);
-            this.guna2Panel2.Location = new System.Drawing.Point(252, 25);
+            this.guna2Panel2.Location = new System.Drawing.Point(252, 11);
             this.guna2Panel2.Name = "guna2Panel2";
             this.guna2Panel2.ShadowDecoration.Parent = this.guna2Panel2;
             this.guna2Panel2.Size = new System.Drawing.Size(140, 74);
             this.guna2Panel2.TabIndex = 165;
-            // 
-            // pictureBox5
-            // 
-            this.pictureBox5.BackColor = System.Drawing.Color.Transparent;
-            this.pictureBox5.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.pictureBox5.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox5.Image")));
-            this.pictureBox5.Location = new System.Drawing.Point(10, 7);
-            this.pictureBox5.Name = "pictureBox5";
-            this.pictureBox5.Size = new System.Drawing.Size(16, 15);
-            this.pictureBox5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
-            this.pictureBox5.TabIndex = 157;
-            this.pictureBox5.TabStop = false;
-            this.pictureBox5.Tag = "blocks";
-            // 
-            // linkicon
-            // 
-            this.linkicon.BackColor = System.Drawing.Color.Transparent;
-            this.linkicon.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.linkicon.Image = ((System.Drawing.Image)(resources.GetObject("linkicon.Image")));
-            this.linkicon.Location = new System.Drawing.Point(10, 52);
-            this.linkicon.Name = "linkicon";
-            this.linkicon.Size = new System.Drawing.Size(15, 16);
-            this.linkicon.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.linkicon.TabIndex = 149;
-            this.linkicon.TabStop = false;
-            this.linkicon.Tag = "blocks";
+            this.guna2Panel2.Paint += new System.Windows.Forms.PaintEventHandler(this.guna2Panel2_Paint);
             // 
             // linktext
             // 
@@ -118,19 +93,6 @@
             this.linktext.TabIndex = 148;
             this.linktext.Text = "     Copy link";
             this.linktext.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
-            // 
-            // zaloicon
-            // 
-            this.zaloicon.BackColor = System.Drawing.Color.Transparent;
-            this.zaloicon.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.zaloicon.Image = ((System.Drawing.Image)(resources.GetObject("zaloicon.Image")));
-            this.zaloicon.Location = new System.Drawing.Point(10, 28);
-            this.zaloicon.Name = "zaloicon";
-            this.zaloicon.Size = new System.Drawing.Size(17, 17);
-            this.zaloicon.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
-            this.zaloicon.TabIndex = 146;
-            this.zaloicon.TabStop = false;
-            this.zaloicon.Tag = "blocks";
             // 
             // zalotext
             // 
@@ -174,12 +136,12 @@
             this.label7.Cursor = System.Windows.Forms.Cursors.Hand;
             this.label7.Font = new System.Drawing.Font("Lato", 15.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label7.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.label7.Location = new System.Drawing.Point(162, 30);
+            this.label7.Location = new System.Drawing.Point(162, 14);
             this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(256, 25);
+            this.label7.Size = new System.Drawing.Size(57, 25);
             this.label7.TabIndex = 164;
             this.label7.Tag = "blocks";
-            this.label7.Text = "Can\'t take my eyes off you";
+            this.label7.Text = "hello";
             // 
             // label6
             // 
@@ -187,7 +149,7 @@
             this.label6.Cursor = System.Windows.Forms.Cursors.Hand;
             this.label6.Font = new System.Drawing.Font("Lato", 8F, System.Drawing.FontStyle.Underline, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label6.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(197)))), ((int)(((byte)(197)))), ((int)(((byte)(197)))));
-            this.label6.Location = new System.Drawing.Point(196, 124);
+            this.label6.Location = new System.Drawing.Point(196, 108);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(43, 13);
             this.label6.TabIndex = 159;
@@ -200,7 +162,7 @@
             this.label5.Cursor = System.Windows.Forms.Cursors.Hand;
             this.label5.Font = new System.Drawing.Font("Lato", 8F, System.Drawing.FontStyle.Underline, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label5.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(197)))), ((int)(((byte)(197)))), ((int)(((byte)(197)))));
-            this.label5.Location = new System.Drawing.Point(245, 124);
+            this.label5.Location = new System.Drawing.Point(245, 108);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(34, 13);
             this.label5.TabIndex = 158;
@@ -213,7 +175,7 @@
             this.label4.Cursor = System.Windows.Forms.Cursors.Hand;
             this.label4.Font = new System.Drawing.Font("Lato", 8F, System.Drawing.FontStyle.Underline, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label4.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(197)))), ((int)(((byte)(197)))), ((int)(((byte)(197)))));
-            this.label4.Location = new System.Drawing.Point(161, 124);
+            this.label4.Location = new System.Drawing.Point(161, 108);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(28, 13);
             this.label4.TabIndex = 157;
@@ -225,7 +187,7 @@
             this.guna2HtmlLabel1.BackColor = System.Drawing.Color.Transparent;
             this.guna2HtmlLabel1.Font = new System.Drawing.Font("Lato", 9.749999F, System.Drawing.FontStyle.Underline, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.guna2HtmlLabel1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(197)))), ((int)(((byte)(197)))), ((int)(((byte)(197)))));
-            this.guna2HtmlLabel1.Location = new System.Drawing.Point(183, 58);
+            this.guna2HtmlLabel1.Location = new System.Drawing.Point(183, 42);
             this.guna2HtmlLabel1.Name = "guna2HtmlLabel1";
             this.guna2HtmlLabel1.Size = new System.Drawing.Size(72, 18);
             this.guna2HtmlLabel1.TabIndex = 156;
@@ -237,7 +199,7 @@
             this.label12.Cursor = System.Windows.Forms.Cursors.Hand;
             this.label12.Font = new System.Drawing.Font("Lato", 9.749999F, System.Drawing.FontStyle.Underline, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label12.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(197)))), ((int)(((byte)(197)))), ((int)(((byte)(197)))));
-            this.label12.Location = new System.Drawing.Point(163, 59);
+            this.label12.Location = new System.Drawing.Point(163, 43);
             this.label12.Name = "label12";
             this.label12.Size = new System.Drawing.Size(21, 16);
             this.label12.TabIndex = 155;
@@ -258,7 +220,7 @@
             this.avatar_button.HoverState.Parent = this.avatar_button;
             this.avatar_button.Image = ((System.Drawing.Image)(resources.GetObject("avatar_button.Image")));
             this.avatar_button.ImageSize = new System.Drawing.Size(122, 122);
-            this.avatar_button.Location = new System.Drawing.Point(14, 15);
+            this.avatar_button.Location = new System.Drawing.Point(14, -1);
             this.avatar_button.Name = "avatar_button";
             this.avatar_button.PressedColor = System.Drawing.Color.Transparent;
             this.avatar_button.PressedDepth = 15;
@@ -268,23 +230,75 @@
             this.avatar_button.TabIndex = 166;
             this.avatar_button.Tag = "blocks";
             // 
+            // pictureBox5
+            // 
+            this.pictureBox5.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox5.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.pictureBox5.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox5.Image")));
+            this.pictureBox5.Location = new System.Drawing.Point(10, 7);
+            this.pictureBox5.Name = "pictureBox5";
+            this.pictureBox5.Size = new System.Drawing.Size(16, 15);
+            this.pictureBox5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
+            this.pictureBox5.TabIndex = 157;
+            this.pictureBox5.TabStop = false;
+            this.pictureBox5.Tag = "blocks";
+            // 
+            // linkicon
+            // 
+            this.linkicon.BackColor = System.Drawing.Color.Transparent;
+            this.linkicon.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.linkicon.Image = ((System.Drawing.Image)(resources.GetObject("linkicon.Image")));
+            this.linkicon.Location = new System.Drawing.Point(10, 52);
+            this.linkicon.Name = "linkicon";
+            this.linkicon.Size = new System.Drawing.Size(15, 16);
+            this.linkicon.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.linkicon.TabIndex = 149;
+            this.linkicon.TabStop = false;
+            this.linkicon.Tag = "blocks";
+            // 
+            // zaloicon
+            // 
+            this.zaloicon.BackColor = System.Drawing.Color.Transparent;
+            this.zaloicon.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.zaloicon.Image = ((System.Drawing.Image)(resources.GetObject("zaloicon.Image")));
+            this.zaloicon.Location = new System.Drawing.Point(10, 28);
+            this.zaloicon.Name = "zaloicon";
+            this.zaloicon.Size = new System.Drawing.Size(17, 17);
+            this.zaloicon.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
+            this.zaloicon.TabIndex = 146;
+            this.zaloicon.TabStop = false;
+            this.zaloicon.Tag = "blocks";
+            // 
             // pictureBox7
             // 
             this.pictureBox7.Cursor = System.Windows.Forms.Cursors.Hand;
             this.pictureBox7.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox7.Image")));
-            this.pictureBox7.Location = new System.Drawing.Point(252, 107);
+            this.pictureBox7.Location = new System.Drawing.Point(252, 91);
             this.pictureBox7.Name = "pictureBox7";
             this.pictureBox7.Size = new System.Drawing.Size(15, 15);
             this.pictureBox7.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
             this.pictureBox7.TabIndex = 163;
             this.pictureBox7.TabStop = false;
             this.pictureBox7.Tag = "blocks";
+            this.pictureBox7.Click += new System.EventHandler(this.pictureBox7_Click);
+            // 
+            // pictureBox9
+            // 
+            this.pictureBox9.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.pictureBox9.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox9.Image")));
+            this.pictureBox9.Location = new System.Drawing.Point(602, 79);
+            this.pictureBox9.Name = "pictureBox9";
+            this.pictureBox9.Size = new System.Drawing.Size(27, 18);
+            this.pictureBox9.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
+            this.pictureBox9.TabIndex = 162;
+            this.pictureBox9.TabStop = false;
+            this.pictureBox9.Tag = "";
             // 
             // pictureBox8
             // 
             this.pictureBox8.Cursor = System.Windows.Forms.Cursors.Hand;
             this.pictureBox8.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox8.Image")));
-            this.pictureBox8.Location = new System.Drawing.Point(210, 107);
+            this.pictureBox8.Location = new System.Drawing.Point(210, 91);
             this.pictureBox8.Name = "pictureBox8";
             this.pictureBox8.Size = new System.Drawing.Size(15, 15);
             this.pictureBox8.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
@@ -296,25 +310,14 @@
             // 
             this.pictureBox6.Cursor = System.Windows.Forms.Cursors.Hand;
             this.pictureBox6.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox6.Image")));
-            this.pictureBox6.Location = new System.Drawing.Point(167, 107);
+            this.pictureBox6.Location = new System.Drawing.Point(167, 91);
             this.pictureBox6.Name = "pictureBox6";
             this.pictureBox6.Size = new System.Drawing.Size(15, 15);
             this.pictureBox6.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
             this.pictureBox6.TabIndex = 160;
             this.pictureBox6.TabStop = false;
             this.pictureBox6.Tag = "";
-            // 
-            // pictureBox9
-            // 
-            this.pictureBox9.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.pictureBox9.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox9.Image")));
-            this.pictureBox9.Location = new System.Drawing.Point(602, 95);
-            this.pictureBox9.Name = "pictureBox9";
-            this.pictureBox9.Size = new System.Drawing.Size(27, 18);
-            this.pictureBox9.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
-            this.pictureBox9.TabIndex = 162;
-            this.pictureBox9.TabStop = false;
-            this.pictureBox9.Tag = "";
+            this.pictureBox6.Click += new System.EventHandler(this.pictureBox6_Click);
             // 
             // Toppick
             // 
@@ -334,16 +337,16 @@
             this.Controls.Add(this.guna2HtmlLabel1);
             this.Controls.Add(this.label12);
             this.Name = "Toppick";
-            this.Size = new System.Drawing.Size(652, 161);
+            this.Size = new System.Drawing.Size(652, 131);
             this.guna2Panel2.ResumeLayout(false);
             this.guna2Panel2.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.linkicon)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.zaloicon)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox9)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox8)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox9)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 

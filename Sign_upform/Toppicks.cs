@@ -29,8 +29,13 @@ namespace Sign_upform
         {
             InitializeComponent();
             Load += Toppicks_Load;
-            play_bar.Visible = false;
-            guna2Panel2.Hide();
+            disable_bar.Visible = true;
+
+        }
+        private void toppick2_Load(object sender, EventArgs e)
+        {
+            
+            play_bar.Visible = true;
         }
         private void Toppicks_Click(object sender, EventArgs e)
         {
@@ -62,10 +67,7 @@ namespace Sign_upform
         {
             guna2TrackBar1.Region = Region.FromHrgn(CreateRoundRectRgn(0, 0, guna2TrackBar1.Width,
      guna2TrackBar1.Height, 5, 5));
-            pictureBox5.Region = Region.FromHrgn(CreateRoundRectRgn(0, 0, pictureBox5.Width,
-   pictureBox5.Height, 8, 8));
-            linkicon.Region = Region.FromHrgn(CreateRoundRectRgn(0, 0, linkicon.Width,
-  linkicon.Height, 10, 5));
+           
 
             // Gán sự kiện click cho form
             Click += Toppicks_Click;
@@ -74,7 +76,7 @@ namespace Sign_upform
                 control.Click += panel2_Click;
             }
 
-            avatar_button.Click += panel2_Click;
+          
         }
 
         private void guna2PictureBox1_Click(object sender, EventArgs e)
@@ -97,18 +99,7 @@ namespace Sign_upform
         {
             // khung share
         }
-        private void pictureBox7_Click(object sender, EventArgs e)
-        {
-            // Kiểm tra trạng thái hiện tại của guna2Panel2
-            if (guna2Panel2.Visible)
-            {
-                guna2Panel2.Hide(); // Nếu đang hiển thị thì ẩn đi
-            }
-            else
-            {
-                guna2Panel2.Show(); // Nếu đang ẩn thì hiển thị
-            }
-        }
+       
         private void heart_active_Click(object sender, EventArgs e)
         {
 
@@ -126,21 +117,7 @@ namespace Sign_upform
             }
 
         }
-        private void pictureBox6_Click(object sender, EventArgs e)
-        {
-
-                flagPictureBox6 *= -1;
-                if (flagPictureBox6 == -1)
-                {//liên kết đến kho ảnh trong máy(cần phải tải về trước)
-                    Bitmap b = new Bitmap(@"C:\Users\PC\Downloads\heart.PNG");
-                   pictureBox6.Image = b; // gọi lại biến để xuất ảnh
-                }
-                else
-                {
-                    Bitmap c = new Bitmap(@"C:\Users\PC\Downloads\Frame 517.PNG");
-                    pictureBox6.Image = c;
-                }
-        }
+        
 
         private void play_bar_Paint(object sender, PaintEventArgs e)
         {
@@ -179,5 +156,11 @@ namespace Sign_upform
 
         }
 
+        private void guna2TrackBar1_Scroll(object sender, ScrollEventArgs e)
+        {
+
+        }
+
+     
     }
 }

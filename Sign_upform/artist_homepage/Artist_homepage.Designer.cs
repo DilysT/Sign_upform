@@ -827,6 +827,7 @@
             this.Controls.Add(this.play_bar);
             this.Controls.Add(this.disable_bar);
             this.Controls.Add(this.panel1);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "Artist_homepage";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Artist_homepage";

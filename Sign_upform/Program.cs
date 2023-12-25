@@ -16,7 +16,7 @@ namespace Sign_upform
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Artist_homepage());
+            Application.Run(new Toppicks_fan());
         }
     }
 }

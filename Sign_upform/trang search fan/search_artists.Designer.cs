@@ -1,6 +1,6 @@
-﻿namespace Sign_upform
+﻿namespace Sign_upform.trang_search_fan
 {
-    partial class Toppicks
+    partial class search_artists
     {
         /// <summary>
         /// Required designer variable.
@@ -28,12 +28,17 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Toppicks));
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(search_artists));
+            this.follow = new Guna.UI2.WinForms.Guna2Button();
+            this.label5 = new System.Windows.Forms.Label();
+            this.label4 = new System.Windows.Forms.Label();
+            this.label8 = new System.Windows.Forms.Label();
+            this.backgroundWorker1 = new System.ComponentModel.BackgroundWorker();
+            this.play_bar = new System.Windows.Forms.Panel();
             this.guna2TrackBar1 = new Guna.UI2.WinForms.Guna2TrackBar();
             this.guna2ProgressBar1 = new Guna.UI2.WinForms.Guna2ProgressBar();
             this.label43 = new System.Windows.Forms.Label();
             this.label44 = new System.Windows.Forms.Label();
-            this.play_bar = new System.Windows.Forms.Panel();
             this.heart_active = new System.Windows.Forms.PictureBox();
             this.transfer_images = new System.Windows.Forms.PictureBox();
             this.pictureBox40 = new System.Windows.Forms.PictureBox();
@@ -45,13 +50,13 @@
             this.pictureBox34 = new System.Windows.Forms.PictureBox();
             this.pictureBox33 = new System.Windows.Forms.PictureBox();
             this.panel1 = new System.Windows.Forms.Panel();
-            this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
             this.Home = new System.Windows.Forms.Label();
             this.pictureBox3 = new System.Windows.Forms.PictureBox();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.InspiroMix = new System.Windows.Forms.PictureBox();
+            this.disable_bar = new System.Windows.Forms.PictureBox();
+            this.pictureBox10 = new System.Windows.Forms.PictureBox();
             this.panel3 = new System.Windows.Forms.Panel();
             this.pictureBox30 = new System.Windows.Forms.PictureBox();
             this.pictureBox29 = new System.Windows.Forms.PictureBox();
@@ -59,19 +64,7 @@
             this.pictureBox27 = new System.Windows.Forms.PictureBox();
             this.textBox1 = new System.Windows.Forms.TextBox();
             this.pictureBox4 = new System.Windows.Forms.PictureBox();
-            this.backgroundWorker1 = new System.ComponentModel.BackgroundWorker();
-            this.disable_bar = new System.Windows.Forms.PictureBox();
-            this.flowLayoutPanel1 = new System.Windows.Forms.FlowLayoutPanel();
-            this.toppick2 = new Sign_upform.Music_toppick.Toppick();
-            this.toppick1 = new Sign_upform.Music_toppick.Toppick();
-            this.toppick3 = new Sign_upform.Music_toppick.Toppick();
-            this.toppick4 = new Sign_upform.Music_toppick.Toppick();
-            this.toppick5 = new Sign_upform.Music_toppick.Toppick();
-            this.toppick6 = new Sign_upform.Music_toppick.Toppick();
             this.panel2 = new System.Windows.Forms.Panel();
-            this.pictureBox5 = new System.Windows.Forms.PictureBox();
-            this.label3 = new System.Windows.Forms.Label();
-            this.guna2HtmlLabel1 = new Guna.UI2.WinForms.Guna2HtmlLabel();
             this.play_bar.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.heart_active)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.transfer_images)).BeginInit();
@@ -86,19 +79,101 @@
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.InspiroMix)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.disable_bar)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox10)).BeginInit();
             this.panel3.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox30)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox29)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox28)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox27)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.disable_bar)).BeginInit();
-            this.flowLayoutPanel1.SuspendLayout();
             this.panel2.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).BeginInit();
             this.SuspendLayout();
+            // 
+            // follow
+            // 
+            this.follow.BackColor = System.Drawing.Color.Transparent;
+            this.follow.BorderColor = System.Drawing.Color.White;
+            this.follow.BorderRadius = 4;
+            this.follow.BorderThickness = 1;
+            this.follow.CheckedState.Parent = this.follow;
+            this.follow.CustomImages.Parent = this.follow;
+            this.follow.FillColor = System.Drawing.Color.Transparent;
+            this.follow.Font = new System.Drawing.Font("Lato", 7.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.follow.ForeColor = System.Drawing.Color.White;
+            this.follow.HoverState.Parent = this.follow;
+            this.follow.ImageAlign = System.Windows.Forms.HorizontalAlignment.Right;
+            this.follow.Location = new System.Drawing.Point(129, 134);
+            this.follow.Name = "follow";
+            this.follow.ShadowDecoration.Parent = this.follow;
+            this.follow.Size = new System.Drawing.Size(65, 20);
+            this.follow.TabIndex = 165;
+            this.follow.Text = "Follow";
+            // 
+            // label5
+            // 
+            this.label5.BackColor = System.Drawing.Color.Transparent;
+            this.label5.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.label5.Font = new System.Drawing.Font("Lato", 10F, System.Drawing.FontStyle.Underline, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label5.ForeColor = System.Drawing.Color.White;
+            this.label5.ImageAlign = System.Drawing.ContentAlignment.TopLeft;
+            this.label5.Location = new System.Drawing.Point(126, 108);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(119, 17);
+            this.label5.TabIndex = 163;
+            this.label5.Tag = "blocks";
+            this.label5.Text = "210.895 followers";
+            // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.BackColor = System.Drawing.Color.Transparent;
+            this.label4.Font = new System.Drawing.Font("Lato", 20F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label4.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.label4.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.label4.Location = new System.Drawing.Point(123, 71);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(158, 33);
+            this.label4.TabIndex = 164;
+            this.label4.Tag = "blocks";
+            this.label4.Text = "Taylor Swift";
+            this.label4.UseMnemonic = false;
+            // 
+            // label8
+            // 
+            this.label8.AutoSize = true;
+            this.label8.Font = new System.Drawing.Font("Lato", 15.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label8.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.label8.Location = new System.Drawing.Point(18, 24);
+            this.label8.Name = "label8";
+            this.label8.Size = new System.Drawing.Size(309, 25);
+            this.label8.TabIndex = 155;
+            this.label8.Tag = "blocks";
+            this.label8.Text = "Search results for \"Taylor Swift\"";
+            // 
+            // play_bar
+            // 
+            this.play_bar.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(23)))), ((int)(((byte)(17)))), ((int)(((byte)(29)))));
+            this.play_bar.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.play_bar.Controls.Add(this.guna2TrackBar1);
+            this.play_bar.Controls.Add(this.guna2ProgressBar1);
+            this.play_bar.Controls.Add(this.label43);
+            this.play_bar.Controls.Add(this.label44);
+            this.play_bar.Controls.Add(this.heart_active);
+            this.play_bar.Controls.Add(this.transfer_images);
+            this.play_bar.Controls.Add(this.pictureBox40);
+            this.play_bar.Controls.Add(this.Play_button);
+            this.play_bar.Controls.Add(this.pictureBox38);
+            this.play_bar.Controls.Add(this.pictureBox37);
+            this.play_bar.Controls.Add(this.pictureBox36);
+            this.play_bar.Controls.Add(this.pictureBox35);
+            this.play_bar.Controls.Add(this.pictureBox34);
+            this.play_bar.Controls.Add(this.pictureBox33);
+            this.play_bar.Location = new System.Drawing.Point(-6, 450);
+            this.play_bar.Name = "play_bar";
+            this.play_bar.Size = new System.Drawing.Size(882, 64);
+            this.play_bar.TabIndex = 157;
             // 
             // guna2TrackBar1
             // 
@@ -110,7 +185,6 @@
             this.guna2TrackBar1.Style = Guna.UI2.WinForms.Enums.TrackBarStyle.Metro;
             this.guna2TrackBar1.TabIndex = 150;
             this.guna2TrackBar1.ThumbColor = System.Drawing.Color.White;
-            this.guna2TrackBar1.Scroll += new System.Windows.Forms.ScrollEventHandler(this.guna2TrackBar1_Scroll);
             // 
             // guna2ProgressBar1
             // 
@@ -149,30 +223,6 @@
             this.label44.TabIndex = 147;
             this.label44.Text = "00:00";
             // 
-            // play_bar
-            // 
-            this.play_bar.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(23)))), ((int)(((byte)(17)))), ((int)(((byte)(29)))));
-            this.play_bar.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.play_bar.Controls.Add(this.guna2TrackBar1);
-            this.play_bar.Controls.Add(this.guna2ProgressBar1);
-            this.play_bar.Controls.Add(this.label43);
-            this.play_bar.Controls.Add(this.label44);
-            this.play_bar.Controls.Add(this.heart_active);
-            this.play_bar.Controls.Add(this.transfer_images);
-            this.play_bar.Controls.Add(this.pictureBox40);
-            this.play_bar.Controls.Add(this.Play_button);
-            this.play_bar.Controls.Add(this.pictureBox38);
-            this.play_bar.Controls.Add(this.pictureBox37);
-            this.play_bar.Controls.Add(this.pictureBox36);
-            this.play_bar.Controls.Add(this.pictureBox35);
-            this.play_bar.Controls.Add(this.pictureBox34);
-            this.play_bar.Controls.Add(this.pictureBox33);
-            this.play_bar.Location = new System.Drawing.Point(-6, 451);
-            this.play_bar.Name = "play_bar";
-            this.play_bar.Size = new System.Drawing.Size(884, 64);
-            this.play_bar.TabIndex = 137;
-            this.play_bar.Paint += new System.Windows.Forms.PaintEventHandler(this.play_bar_Paint);
-            // 
             // heart_active
             // 
             this.heart_active.Image = ((System.Drawing.Image)(resources.GetObject("heart_active.Image")));
@@ -182,7 +232,6 @@
             this.heart_active.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
             this.heart_active.TabIndex = 144;
             this.heart_active.TabStop = false;
-            this.heart_active.Click += new System.EventHandler(this.heart_active_Click);
             // 
             // transfer_images
             // 
@@ -193,7 +242,6 @@
             this.transfer_images.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.transfer_images.TabIndex = 133;
             this.transfer_images.TabStop = false;
-            this.transfer_images.Click += new System.EventHandler(this.transfer_images_Click);
             // 
             // pictureBox40
             // 
@@ -214,7 +262,6 @@
             this.Play_button.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
             this.Play_button.TabIndex = 136;
             this.Play_button.TabStop = false;
-            this.Play_button.Click += new System.EventHandler(this.Play_button_Click);
             // 
             // pictureBox38
             // 
@@ -279,29 +326,15 @@
             // panel1
             // 
             this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(29)))), ((int)(((byte)(19)))), ((int)(((byte)(40)))));
-            this.panel1.Controls.Add(this.label2);
             this.panel1.Controls.Add(this.label1);
             this.panel1.Controls.Add(this.Home);
             this.panel1.Controls.Add(this.pictureBox3);
             this.panel1.Controls.Add(this.pictureBox2);
-            this.panel1.Controls.Add(this.pictureBox1);
             this.panel1.Controls.Add(this.InspiroMix);
-            this.panel1.Location = new System.Drawing.Point(-7, -3);
+            this.panel1.Location = new System.Drawing.Point(-7, -4);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(160, 454);
-            this.panel1.TabIndex = 134;
-            // 
-            // label2
-            // 
-            this.label2.AutoSize = true;
-            this.label2.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.label2.Font = new System.Drawing.Font("Lato Semibold", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(179)))), ((int)(((byte)(179)))), ((int)(((byte)(179)))));
-            this.label2.Location = new System.Drawing.Point(35, 118);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(54, 13);
-            this.label2.TabIndex = 7;
-            this.label2.Text = "My songs";
+            this.panel1.Size = new System.Drawing.Size(158, 454);
+            this.panel1.TabIndex = 154;
             // 
             // label1
             // 
@@ -309,7 +342,7 @@
             this.label1.Cursor = System.Windows.Forms.Cursors.Hand;
             this.label1.Font = new System.Drawing.Font("Lato Semibold", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(179)))), ((int)(((byte)(179)))), ((int)(((byte)(179)))));
-            this.label1.Location = new System.Drawing.Point(35, 153);
+            this.label1.Location = new System.Drawing.Point(35, 119);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(61, 13);
             this.label1.TabIndex = 6;
@@ -343,24 +376,12 @@
             this.pictureBox2.BackColor = System.Drawing.Color.Transparent;
             this.pictureBox2.Cursor = System.Windows.Forms.Cursors.Hand;
             this.pictureBox2.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox2.Image")));
-            this.pictureBox2.Location = new System.Drawing.Point(18, 152);
+            this.pictureBox2.Location = new System.Drawing.Point(18, 118);
             this.pictureBox2.Name = "pictureBox2";
             this.pictureBox2.Size = new System.Drawing.Size(15, 15);
             this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
             this.pictureBox2.TabIndex = 3;
             this.pictureBox2.TabStop = false;
-            // 
-            // pictureBox1
-            // 
-            this.pictureBox1.BackColor = System.Drawing.Color.Transparent;
-            this.pictureBox1.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
-            this.pictureBox1.Location = new System.Drawing.Point(18, 117);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(15, 15);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
-            this.pictureBox1.TabIndex = 2;
-            this.pictureBox1.TabStop = false;
             // 
             // InspiroMix
             // 
@@ -372,6 +393,25 @@
             this.InspiroMix.TabIndex = 1;
             this.InspiroMix.TabStop = false;
             // 
+            // disable_bar
+            // 
+            this.disable_bar.Image = ((System.Drawing.Image)(resources.GetObject("disable_bar.Image")));
+            this.disable_bar.Location = new System.Drawing.Point(1, 448);
+            this.disable_bar.Name = "disable_bar";
+            this.disable_bar.Size = new System.Drawing.Size(887, 66);
+            this.disable_bar.TabIndex = 156;
+            this.disable_bar.TabStop = false;
+            // 
+            // pictureBox10
+            // 
+            this.pictureBox10.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox10.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox10.Image")));
+            this.pictureBox10.Location = new System.Drawing.Point(23, 65);
+            this.pictureBox10.Name = "pictureBox10";
+            this.pictureBox10.Size = new System.Drawing.Size(89, 89);
+            this.pictureBox10.TabIndex = 162;
+            this.pictureBox10.TabStop = false;
+            // 
             // panel3
             // 
             this.panel3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(23)))), ((int)(((byte)(17)))), ((int)(((byte)(29)))));
@@ -381,10 +421,10 @@
             this.panel3.Controls.Add(this.pictureBox27);
             this.panel3.Controls.Add(this.textBox1);
             this.panel3.Controls.Add(this.pictureBox4);
-            this.panel3.Location = new System.Drawing.Point(153, -3);
+            this.panel3.Location = new System.Drawing.Point(151, -4);
             this.panel3.Name = "panel3";
-            this.panel3.Size = new System.Drawing.Size(715, 71);
-            this.panel3.TabIndex = 135;
+            this.panel3.Size = new System.Drawing.Size(713, 71);
+            this.panel3.TabIndex = 155;
             // 
             // pictureBox30
             // 
@@ -444,7 +484,7 @@
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(338, 16);
             this.textBox1.TabIndex = 1;
-            this.textBox1.Text = "Let\'s search your tune...";
+            this.textBox1.Text = "Taylor Swift";
             // 
             // pictureBox4
             // 
@@ -457,136 +497,33 @@
             this.pictureBox4.TabIndex = 0;
             this.pictureBox4.TabStop = false;
             // 
-            // disable_bar
-            // 
-            this.disable_bar.Image = ((System.Drawing.Image)(resources.GetObject("disable_bar.Image")));
-            this.disable_bar.Location = new System.Drawing.Point(1, 449);
-            this.disable_bar.Name = "disable_bar";
-            this.disable_bar.Size = new System.Drawing.Size(889, 66);
-            this.disable_bar.TabIndex = 136;
-            this.disable_bar.TabStop = false;
-            // 
-            // flowLayoutPanel1
-            // 
-            this.flowLayoutPanel1.Controls.Add(this.toppick2);
-            this.flowLayoutPanel1.Controls.Add(this.toppick1);
-            this.flowLayoutPanel1.Controls.Add(this.toppick3);
-            this.flowLayoutPanel1.Controls.Add(this.toppick4);
-            this.flowLayoutPanel1.Controls.Add(this.toppick5);
-            this.flowLayoutPanel1.Controls.Add(this.toppick6);
-            this.flowLayoutPanel1.Location = new System.Drawing.Point(9, 51);
-            this.flowLayoutPanel1.Name = "flowLayoutPanel1";
-            this.flowLayoutPanel1.Size = new System.Drawing.Size(692, 859);
-            this.flowLayoutPanel1.TabIndex = 156;
-            // 
-            // toppick2
-            // 
-            this.toppick2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(23)))), ((int)(((byte)(17)))), ((int)(((byte)(29)))));
-            this.toppick2.Location = new System.Drawing.Point(3, 3);
-            this.toppick2.Name = "toppick2";
-            this.toppick2.Size = new System.Drawing.Size(649, 134);
-            this.toppick2.TabIndex = 1;
-            this.toppick2.Load += new System.EventHandler(this.toppick2_Load);
-            // 
-            // toppick1
-            // 
-            this.toppick1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(23)))), ((int)(((byte)(17)))), ((int)(((byte)(29)))));
-            this.toppick1.Location = new System.Drawing.Point(3, 143);
-            this.toppick1.Name = "toppick1";
-            this.toppick1.Size = new System.Drawing.Size(666, 131);
-            this.toppick1.TabIndex = 2;
-            // 
-            // toppick3
-            // 
-            this.toppick3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(23)))), ((int)(((byte)(17)))), ((int)(((byte)(29)))));
-            this.toppick3.Location = new System.Drawing.Point(3, 280);
-            this.toppick3.Name = "toppick3";
-            this.toppick3.Size = new System.Drawing.Size(666, 129);
-            this.toppick3.TabIndex = 3;
-            // 
-            // toppick4
-            // 
-            this.toppick4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(23)))), ((int)(((byte)(17)))), ((int)(((byte)(29)))));
-            this.toppick4.Location = new System.Drawing.Point(3, 415);
-            this.toppick4.Name = "toppick4";
-            this.toppick4.Size = new System.Drawing.Size(666, 131);
-            this.toppick4.TabIndex = 4;
-            // 
-            // toppick5
-            // 
-            this.toppick5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(23)))), ((int)(((byte)(17)))), ((int)(((byte)(29)))));
-            this.toppick5.Location = new System.Drawing.Point(3, 552);
-            this.toppick5.Name = "toppick5";
-            this.toppick5.Size = new System.Drawing.Size(666, 139);
-            this.toppick5.TabIndex = 5;
-            // 
-            // toppick6
-            // 
-            this.toppick6.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(23)))), ((int)(((byte)(17)))), ((int)(((byte)(29)))));
-            this.toppick6.Location = new System.Drawing.Point(3, 697);
-            this.toppick6.Name = "toppick6";
-            this.toppick6.Size = new System.Drawing.Size(666, 139);
-            this.toppick6.TabIndex = 6;
-            // 
             // panel2
             // 
             this.panel2.AutoScroll = true;
             this.panel2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(23)))), ((int)(((byte)(17)))), ((int)(((byte)(29)))));
-            this.panel2.Controls.Add(this.pictureBox5);
-            this.panel2.Controls.Add(this.label3);
-            this.panel2.Controls.Add(this.flowLayoutPanel1);
-            this.panel2.Font = new System.Drawing.Font("Lato", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.panel2.Location = new System.Drawing.Point(152, 62);
+            this.panel2.Controls.Add(this.follow);
+            this.panel2.Controls.Add(this.label5);
+            this.panel2.Controls.Add(this.label4);
+            this.panel2.Controls.Add(this.pictureBox10);
+            this.panel2.Controls.Add(this.label8);
+            this.panel2.Font = new System.Drawing.Font("Lato", 8.25F, System.Drawing.FontStyle.Underline, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.panel2.Location = new System.Drawing.Point(150, 65);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(738, 390);
-            this.panel2.TabIndex = 133;
-            this.panel2.Paint += new System.Windows.Forms.PaintEventHandler(this.panel2_Paint);
+            this.panel2.Size = new System.Drawing.Size(711, 386);
+            this.panel2.TabIndex = 153;
             // 
-            // pictureBox5
-            // 
-            this.pictureBox5.Location = new System.Drawing.Point(0, 921);
-            this.pictureBox5.Name = "pictureBox5";
-            this.pictureBox5.Size = new System.Drawing.Size(573, 15);
-            this.pictureBox5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox5.TabIndex = 151;
-            this.pictureBox5.TabStop = false;
-            // 
-            // label3
-            // 
-            this.label3.AutoSize = true;
-            this.label3.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.label3.Font = new System.Drawing.Font("Lato Semibold", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.ForeColor = System.Drawing.Color.White;
-            this.label3.Location = new System.Drawing.Point(22, 17);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(99, 25);
-            this.label3.TabIndex = 8;
-            this.label3.Text = "Songs list";
-            // 
-            // guna2HtmlLabel1
-            // 
-            this.guna2HtmlLabel1.BackColor = System.Drawing.Color.Transparent;
-            this.guna2HtmlLabel1.Font = new System.Drawing.Font("Lato", 9.749999F, System.Drawing.FontStyle.Underline, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.guna2HtmlLabel1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(197)))), ((int)(((byte)(197)))), ((int)(((byte)(197)))));
-            this.guna2HtmlLabel1.Location = new System.Drawing.Point(187, 707);
-            this.guna2HtmlLabel1.Name = "guna2HtmlLabel1";
-            this.guna2HtmlLabel1.Size = new System.Drawing.Size(72, 18);
-            this.guna2HtmlLabel1.TabIndex = 131;
-            this.guna2HtmlLabel1.Text = "Frankie Valli";
-            // 
-            // Toppicks
+            // search_artists
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(906, 513);
+            this.ClientSize = new System.Drawing.Size(856, 513);
             this.Controls.Add(this.play_bar);
-            this.Controls.Add(this.disable_bar);
             this.Controls.Add(this.panel1);
+            this.Controls.Add(this.disable_bar);
             this.Controls.Add(this.panel3);
             this.Controls.Add(this.panel2);
-            this.Name = "Toppicks";
-            this.Text = "Toppicks";
-            this.Load += new System.EventHandler(this.Toppicks_Load);
+            this.Name = "search_artists";
+            this.Text = "search_artists";
             this.play_bar.ResumeLayout(false);
             this.play_bar.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.heart_active)).EndInit();
@@ -603,8 +540,9 @@
             this.panel1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.InspiroMix)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.disable_bar)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox10)).EndInit();
             this.panel3.ResumeLayout(false);
             this.panel3.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox30)).EndInit();
@@ -612,20 +550,25 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox28)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox27)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.disable_bar)).EndInit();
-            this.flowLayoutPanel1.ResumeLayout(false);
             this.panel2.ResumeLayout(false);
             this.panel2.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).EndInit();
             this.ResumeLayout(false);
 
         }
 
         #endregion
+
+        private Guna.UI2.WinForms.Guna2Button follow;
+        private System.Windows.Forms.Label label5;
+        private System.Windows.Forms.Label label4;
+        private System.Windows.Forms.Label label8;
+        private System.ComponentModel.BackgroundWorker backgroundWorker1;
+        private System.Windows.Forms.Panel play_bar;
         private Guna.UI2.WinForms.Guna2TrackBar guna2TrackBar1;
         private Guna.UI2.WinForms.Guna2ProgressBar guna2ProgressBar1;
         private System.Windows.Forms.Label label43;
         private System.Windows.Forms.Label label44;
+        private System.Windows.Forms.PictureBox heart_active;
         private System.Windows.Forms.PictureBox transfer_images;
         private System.Windows.Forms.PictureBox pictureBox40;
         private System.Windows.Forms.PictureBox Play_button;
@@ -635,35 +578,21 @@
         private System.Windows.Forms.PictureBox pictureBox35;
         private System.Windows.Forms.PictureBox pictureBox34;
         private System.Windows.Forms.PictureBox pictureBox33;
-        private System.Windows.Forms.Panel play_bar;
-        private System.Windows.Forms.PictureBox disable_bar;
         private System.Windows.Forms.Panel panel1;
-        private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label Home;
         private System.Windows.Forms.PictureBox pictureBox3;
         private System.Windows.Forms.PictureBox pictureBox2;
-        private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.PictureBox InspiroMix;
+        private System.Windows.Forms.PictureBox disable_bar;
+        private System.Windows.Forms.PictureBox pictureBox10;
+        private System.Windows.Forms.Panel panel3;
         private System.Windows.Forms.PictureBox pictureBox30;
         private System.Windows.Forms.PictureBox pictureBox29;
         private System.Windows.Forms.PictureBox pictureBox28;
-        private System.Windows.Forms.Panel panel3;
         private System.Windows.Forms.PictureBox pictureBox27;
         private System.Windows.Forms.TextBox textBox1;
         private System.Windows.Forms.PictureBox pictureBox4;
-        private System.ComponentModel.BackgroundWorker backgroundWorker1;
-        private System.Windows.Forms.FlowLayoutPanel flowLayoutPanel1;
-        private Music_toppick.Toppick toppick1;
-        private Music_toppick.Toppick toppick3;
-        private Music_toppick.Toppick toppick4;
-        private Music_toppick.Toppick toppick5;
         private System.Windows.Forms.Panel panel2;
-        private Guna.UI2.WinForms.Guna2HtmlLabel guna2HtmlLabel1;
-        private Music_toppick.Toppick toppick2;
-        private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.PictureBox heart_active;
-        private Music_toppick.Toppick toppick6;
-        private System.Windows.Forms.PictureBox pictureBox5;
     }
 }
